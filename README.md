@@ -25,4 +25,4 @@ Every commit to the connected production branch will trigger a new deployment.
 
 ## Current scope
 
-The current prototype includes authored dialogue, object inspection, a persistent clue dossier, contextual text-answer puzzles, combat actions, a shared 10,000-HP boss pool across three phases, save/resume across gameplay phases, consequence tracking and conditional ending requirements. Combat values remain provisional; richer puzzle interfaces and several boss mechanics are outstanding. Add the cinematic images to assets/scenes using the exact filenames in ASSET_GUIDE.md.
+The current prototype includes 351 authored dialogue lines across 50 events, 19 scenes with unique exploration hotspots, a persistent clue dossier, four interactive network-route puzzles, contextual text-answer puzzles, animated CSS boss arenas, charged combat attacks, a shared 10,000-HP boss pool across three phases, save/resume, consequence tracking and conditional ending requirements. Combat values remain provisional; richer puzzle interfaces and several boss mechanics are outstanding. Add the cinematic images to assets/scenes using the exact filenames in ASSET_GUIDE.md.
