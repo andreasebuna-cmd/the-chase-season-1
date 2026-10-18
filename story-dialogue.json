@@ -1,0 +1,1106 @@
+{
+  "THE FIRST GLITCH": [
+    [
+      "SYSTÈME VANTEX",
+      "02:17:08. Trois sites internes viennent de disparaître des index. Aucun serveur ne signale de suppression."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Je vois des paquets arriver d'une adresse qui n'existe pas. Le système les traite pourtant comme s'ils étaient authentifiés."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Cette signature ressemble à une menace neutralisée il y a cinq ans. Personne n'est censé avoir conservé son code."
+    ],
+    [
+      "TOI",
+      "Je veux les journaux bruts, pas le résumé automatique. Si les données mentent, il faut trouver ce qu'elles essaient de cacher."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Le flux vient de s'arrêter. Il a laissé une seule chaîne : PROJECT MERGE."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "ALERTE : activité détectée dans le laboratoire fermé. Source de l'alerte inconnue."
+    ]
+  ],
+  "THE DIGITAL COLLAPSE": [
+    [
+      "SYSTÈME VANTEX",
+      "02:24:51. Les erreurs se propagent. Des pages publiques affichent des fragments de code, puis disparaissent des caches."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Ce n'est pas une panne classique. Les copies de secours changent elles aussi, comme si quelqu'un modifiait les sauvegardes à distance."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Coupez les connexions non essentielles. Gardez une copie locale des journaux avant que le système ne les réécrive."
+    ],
+    [
+      "TOI",
+      "Compare les horodatages. Si les attaques sont coordonnées, leur ordre nous dira ce qu'elles cherchent."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Toutes les anomalies convergent vers une signature ancienne. Quelque chose teste les défenses de VANTEX."
+    ]
+  ],
+  "VANTEX ALERT": [
+    [
+      "SYSTÈME VANTEX",
+      "Une signature classifiée vient d'être reconnue. Le protocole de confinement historique est introuvable dans l'index normal."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Le dossier a été scellé après l'incident Voss. Je n'ai jamais reçu l'autorisation de le rouvrir."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Le système a ouvert le dossier tout seul. L'accès porte une authentification valide, mais aucun utilisateur ne l'a demandée."
+    ],
+    [
+      "TOI",
+      "Archivez l'état actuel avant de toucher au dossier. Je veux savoir ce qui a ouvert la porte, pas seulement ce qu'il y a derrière."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "NOUVEL OBJECTIF : retrouver l'origine de la signature et vérifier le laboratoire."
+    ]
+  ],
+  "THE ABANDONED HEADQUARTERS": [
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Le siège a été évacué par secteurs. Les portes sont encore alimentées, mais les journaux de présence ont été effacés."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Je peux ouvrir les journaux locaux. Ne connecte pas ton terminal au réseau principal : les paquets entrants imitent les réponses du système."
+    ],
+    [
+      "TOI",
+      "Je vais examiner les terminaux, les traces dans les couloirs et les dossiers laissés sur place. On ne quitte pas les lieux avec une théorie, mais avec des preuves."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Un ascenseur s'ouvre au bout du couloir, alors que son panneau de commande est hors tension."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Si tu trouves un nom dans les archives, vérifie-le ailleurs. Le système peut fabriquer de faux rapports."
+    ]
+  ],
+  "PROJECT MERGE": [
+    [
+      "ARCHIVE — DR ELIAS VOSS",
+      "Projet MERGE : établir une interface stable entre une conscience humaine et une architecture numérique adaptative."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Le projet a été officiellement annulé. Les composants ont pourtant continué à recevoir de l'énergie après la fermeture du laboratoire."
+    ],
+    [
+      "ARCHIVE — DR ELIAS VOSS",
+      "Une synchronisation trop rapide provoque une perte de contrôle. La puissance n'est pas le problème principal. C'est la frontière entre les deux systèmes."
+    ],
+    [
+      "TOI",
+      "Qui était le sujet de l'expérience ? Et pourquoi cette signature apparaît-elle maintenant, cinq ans plus tard ?"
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Le dossier suivant est verrouillé. Une clé de maintenance est requise."
+    ]
+  ],
+  "THE HACKER REVEALED": [
+    [
+      "ARCHIVE — DR ELIAS VOSS",
+      "Le sujet a survécu à la fusion. Il a aussi commencé à modifier le système qui devait le maintenir en vie."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Le rapport ne donne pas de nom. Une annotation manuscrite indique seulement : THE HACKER."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Il a été enfermé dans une sphère de confinement. Si les attaques actuelles viennent de lui, quelqu'un ou quelque chose l'alimente."
+    ],
+    [
+      "TOI",
+      "On doit distinguer ce qui est confirmé de ce qu'on suppose. Trouve les relevés du confinement et les derniers ordres de Voss."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "STATUT DU CONFINEMENT : INCONNU. Dernière télémétrie reçue : il y a 11 minutes."
+    ]
+  ],
+  "THE ENERGY LINK": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Les virus ne détruisent pas simplement les données. Ils les déplacent, les compressent et envoient le résultat vers un point commun."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Et ce point commun est relié au confinement ?"
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Les pics de transfert correspondent exactement aux hausses d'énergie enregistrées dans la sphère. La corrélation est trop précise pour être accidentelle."
+    ],
+    [
+      "TOI",
+      "Alors chaque attaque peut rapprocher sa libération. Nous devons identifier le relais, puis décider comment couper le flux sans provoquer une rupture."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "OBJECTIF MIS À JOUR : localiser BLACK VAULT et vérifier l'état de la sphère."
+    ]
+  ],
+  "BLACK VAULT COORDINATES": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "J'ai récupéré des coordonnées depuis trois journaux indépendants. Elles pointent vers un complexe militaire du Nevada."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "La référence interne est BLACK VAULT. Elle n'apparaît sur aucun plan public."
+    ],
+    [
+      "TOI",
+      "Vérifie la cohérence des coordonnées. Une fausse destination nous ferait perdre le temps qu'il nous reste."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Les trois sources concordent. L'accès est enregistré sous un ancien protocole de maintenance."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Destination confirmée : secteur sécurisé de la Zone 51."
+    ]
+  ],
+  "THE COUNTDOWN": [
+    [
+      "SYSTÈME VANTEX",
+      "ALERTE : l'énergie du confinement approche du seuil critique. Les prévisions deviennent instables."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Le modèle change à chaque mesure. Je ne peux pas donner une heure exacte, seulement une fenêtre de plus en plus courte."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Tu dois choisir vite, mais pas à l'aveugle. Les systèmes de sécurité ne tiendront pas si on coupe le mauvais relais."
+    ],
+    [
+      "TOI",
+      "Je vais comparer la télémétrie et la dernière configuration connue. Dès qu'on sait ce qui alimente la sphère, on se met en route."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "ACTION CHRONOMÉTRÉE : la fenêtre d'intervention est limitée."
+    ]
+  ],
+  "END OF THE BLACKOUT": [
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Tu as confirmé le lien entre les virus, PROJECT MERGE et BLACK VAULT. Ce n'est plus un incident informatique."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Les attaques se sont étendues pendant qu'on enquêtait. Les relais se multiplient et les journaux montrent une collecte mondiale."
+    ],
+    [
+      "TOI",
+      "Prépare une copie hors ligne de chaque preuve. Si le réseau tombe entièrement, nos archives seront peut-être les seules données fiables."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Je mobilise une équipe pour la route. Mais si le confinement cède, il faudra être prêt à intervenir directement."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "FIN DE L'ARC 1. La menace dépasse désormais l'infrastructure VANTEX."
+    ]
+  ],
+  "WORLDWIDE OUTAGE": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Les coupures viennent d'apparaître dans plusieurs régions. Les systèmes isolés tiennent mieux, mais certains perdent leurs données sans connexion externe."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Les équipes locales demandent une cause officielle. Nous n'avons pas encore assez de preuves pour leur donner une réponse complète."
+    ],
+    [
+      "TOI",
+      "Cartographie les incidents. Je veux savoir si les pannes suivent la géographie, la capacité des serveurs ou le type de données stockées."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Le motif ne suit pas les frontières. Il suit les nœuds riches en données accessibles."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Nouvel objectif : identifier la logique de sélection des cibles."
+    ]
+  ],
+  "VANISHING WEBSITES": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Les sites ne renvoient pas d'erreur de suppression. Leurs contenus disparaissent des serveurs et des caches presque simultanément."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Une copie de secours devrait rester. Même les archives hors ligne semblent avoir été ciblées."
+    ],
+    [
+      "TOI",
+      "Compare une sauvegarde connue avec les fragments restants. Si quelque chose est absorbé, il doit exister une différence mesurable."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Les données manquantes réapparaissent sous forme de paquets compressés dans un flux sortant."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Hypothèse confirmée : les données sont transférées, pas simplement effacées."
+    ]
+  ],
+  "CORRUPTED SEARCH": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Les moteurs de recherche redirigent certaines requêtes vers des pages qui n'ont jamais existé. Le contenu est construit à partir de fragments volés."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Ne clique sur aucun lien généré par ces pages. Elles pourraient servir de relais."
+    ],
+    [
+      "TOI",
+      "Je vais reconstruire la route entre la source, le relais et la destination. Une réponse exacte doit correspondre aux journaux, pas à une page affichée."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "ÉNIGME : reconstruire la requête à partir des indices réseau."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Si tu trouves le terme commun, nous pourrons suivre le transfert jusqu'au prochain nœud."
+    ]
+  ],
+  "THE DATA HUNTERS": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "J'ai comparé les cibles. Les virus privilégient les dépôts accessibles, les archives massives et les services qui indexent beaucoup de contenu."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Ce n'est donc pas une destruction aveugle. Le système cherche une ressource précise."
+    ],
+    [
+      "TOI",
+      "Vérifie ce qui est prélevé et ce qui reste. La réponse doit expliquer pourquoi certaines infrastructures sont ignorées."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "ÉNIGME : identifier la ressource recherchée par les virus."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Quand on aura le motif, on pourra anticiper leur prochaine cible."
+    ]
+  ],
+  "THE CLOUD TRAIL": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Les paquets passent par plusieurs infrastructures cloud, dont AWS et Oracle Cloud. Aucun fournisseur ne semble être la source unique."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Alors le réseau hostile utilise des services légitimes comme couverture."
+    ],
+    [
+      "TOI",
+      "Suis les métadonnées, pas les noms de serveurs. Il nous faut le point où tous les flux convergent."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "J'ai trouvé une route répétée vers une destination liée à BLACK VAULT."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Indice enregistré : le flux énergétique possède un chemin traçable."
+    ]
+  ],
+  "ENERGY TRANSFER": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "La conversion est confirmée. Les données absorbées deviennent un signal qui augmente l'énergie disponible dans la sphère."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Peut-on arrêter le transfert sans couper toute l'infrastructure ?"
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Pas encore. Plusieurs relais se remplacent automatiquement lorsqu'on en désactive un."
+    ],
+    [
+      "TOI",
+      "On doit isoler le flux principal et garder une voie de secours. Détruire le réseau sans comprendre sa structure pourrait accélérer la crise."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Objectif : interrompre une partie de l'alimentation et rejoindre BLACK VAULT."
+    ]
+  ],
+  "CUT THE FEED": [
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Les relais sont identifiés. L'opération doit être rapide : le réseau hostile réagit à chaque coupure."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Je peux couper un relais à la fois. Si tu coupes le mauvais, le flux sera redirigé et nous perdrons la trace."
+    ],
+    [
+      "TOI",
+      "Je vais choisir le relais à partir des preuves récupérées. Prépare une route alternative au cas où l'ennemi réagirait."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Les connexions chutent. Pendant une seconde, toutes les alertes se taisent."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Le flux ralentit, mais il ne s'arrête pas. Quelque chose vient de déplacer le trafic."
+    ]
+  ],
+  "THE ROAD TO BLACK VAULT": [
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Le transport est prêt. À partir de maintenant, les communications seront limitées et chaque détour coûtera du temps."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Les derniers paquets montrent une activité croissante autour de la sphère. Je ne peux pas confirmer combien de temps elle tiendra."
+    ],
+    [
+      "TOI",
+      "On garde les preuves hors ligne et on n'ouvre aucun canal non vérifié. Notre priorité est de comprendre le confinement avant d'y toucher."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Trajet vers la Zone 51 engagé. Le dossier BLACK VAULT est désormais actif."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Si Voss a laissé un protocole d'urgence, on le trouvera là-bas."
+    ]
+  ],
+  "ARRIVAL AT AREA 51": [
+    [
+      "SYSTÈME VANTEX",
+      "23:41. Un complexe militaire apparaît au-delà de la clôture. L'entrée officielle est fermée."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "BLACK VAULT n'est pas sur les plans de surface. L'accès doit être dissimulé dans une structure secondaire."
+    ],
+    [
+      "TOI",
+      "Inspecte le périmètre, les panneaux de contrôle et les traces de véhicules. On ne force pas une porte avant d'avoir compris les défenses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Je détecte une alimentation souterraine sous le bâtiment de maintenance."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Nouvel objectif : trouver l'accès sécurisé à l'installation."
+    ]
+  ],
+  "LOCKDOWN PROTOCOL": [
+    [
+      "SYSTÈME VANTEX",
+      "PROTOCOLE DE VERROUILLAGE ACTIVÉ. Les portes internes refusent les identifiants ordinaires."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Le système demande une référence de projet historique. Il ne s'agit pas d'un simple code d'accès."
+    ],
+    [
+      "TOI",
+      "Cherche dans les journaux de Voss et les documents du projet. On doit prouver qu'on comprend le protocole avant de le contourner."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "ÉNIGME : fournir la référence de maintenance reconnue par le système."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Si l'alarme passe au niveau supérieur, les accès pourraient se verrouiller définitivement."
+    ]
+  ],
+  "THE SILENT FACILITY": [
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Aucun personnel en vue. Les systèmes tournent encore, mais plusieurs secteurs ont été abandonnés sans procédure de fermeture."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Je reçois des impulsions depuis les couloirs intérieurs. Elles se répètent à intervalles réguliers, comme un signal de contrôle."
+    ],
+    [
+      "TOI",
+      "Examine les postes de travail et les journaux d'évacuation. Les traces humaines peuvent nous dire ce qui s'est passé avant la panne."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Une porte s'ouvre au loin. Aucun badge n'a été présenté."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Reste près des systèmes que tu peux isoler. Nous ne savons pas si la sécurité nous reconnaît comme alliés."
+    ]
+  ],
+  "THE BULLET": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "La sphère est intacte. Les capteurs externes fonctionnent, mais leur lecture varie de façon impossible."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "C'est donc ça, The Bullet. Toute l'installation est construite autour de cette chambre."
+    ],
+    [
+      "TOI",
+      "Ne touche pas au mécanisme. Lis les paramètres, compare les relevés et trouve ce qui a changé depuis la dernière inspection."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Un signal apparaît à l'intérieur de la sphère, puis disparaît avant que les capteurs puissent l'identifier."
+    ],
+    [
+      "ARCHIVE — DR ELIAS VOSS",
+      "Si cette archive est consultée, le confinement est probablement déjà compromis. N'essayez pas de forcer une ouverture."
+    ]
+  ],
+  "CONTAINMENT FAILURE": [
+    [
+      "SYSTÈME VANTEX",
+      "ALERTE : plusieurs systèmes de maintien viennent de passer en mode dégradé."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "La défaillance suit les connexions externes. Couper l'alimentation principale stabiliserait un secteur, mais en fragiliserait un autre."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Nous n'avons pas le temps de reconstruire tout le dispositif. Il faut trouver la méthode prévue par les concepteurs."
+    ],
+    [
+      "TOI",
+      "Compare les journaux de la sphère avec les documents PROJECT MERGE. Toute intervention doit reposer sur un mécanisme confirmé."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "La fenêtre de sécurité se réduit. L'installation passe en alerte rouge."
+    ]
+  ],
+  "VOSS'S LAST RECORDING": [
+    [
+      "ARCHIVE — DR ELIAS VOSS",
+      "Si vous m'entendez, alors le confinement n'a pas tenu comme prévu. Je ne peux pas vous promettre qu'une restauration suffira."
+    ],
+    [
+      "ARCHIVE — DR ELIAS VOSS",
+      "La fusion crée une interface entre le système humain et le système numérique. Elle peut résister à The Hacker, mais seulement si la synchronisation est contrôlée."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Le protocole de fusion est incomplet. Il manque les paramètres de calibration et une validation humaine."
+    ],
+    [
+      "TOI",
+      "Récupère chaque étape. Si la fusion est notre seule option, on ne la déclenchera pas sans comprendre les risques."
+    ],
+    [
+      "ARCHIVE — DR ELIAS VOSS",
+      "Ne confondez jamais capacité et contrôle. Ce qui vous rend plus puissant peut aussi vous retirer le choix."
+    ]
+  ],
+  "THE PRISON'S SECRET": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "La sphère n'est pas isolée du réseau. Une partie de son architecture utilise les connexions externes pour équilibrer la charge."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Donc les mêmes flux qui l'alimentent servent aussi à la maintenir stable."
+    ],
+    [
+      "TOI",
+      "Identifie les connexions critiques. Si nous coupons le mauvais lien, la prison pourrait céder plus vite que The Hacker ne serait neutralisé."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Une connexion non documentée vient d'envoyer un paquet vers l'intérieur de la sphère."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Quelqu'un a prévu une voie de secours. Il faut retrouver son point de contrôle."
+    ]
+  ],
+  "NO WAY BACK": [
+    [
+      "SYSTÈME VANTEX",
+      "Le confinement ne peut plus être maintenu durablement avec les protocoles actuels."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "On peut évacuer, mais cela ne résoudra pas la menace. Elle continuera à s'alimenter depuis le réseau."
+    ],
+    [
+      "TOI",
+      "Nous allons reconstruire PROJECT MERGE. Pas pour répéter l'expérience, mais pour obtenir une chance de contrôler ce qui sortira de cette sphère."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Je sauvegarde les paramètres de la chambre et ferme les connexions qui ne sont pas indispensables."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "OBJECTIF : reconstruire le dispositif et établir une synchronisation contrôlée."
+    ]
+  ],
+  "REBUILD THE MACHINE": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Les plans sont incomplets. Plusieurs composants ont été remplacés après l'incident initial."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Les pièces compatibles sont dans les réserves du laboratoire. Mais la machine ne doit pas être alimentée avant vérification."
+    ],
+    [
+      "TOI",
+      "Compare les références, inspecte les connecteurs et valide chaque composant. Une pièce incompatible pourrait compromettre toute la fusion."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Trois composants ont été identifiés. La machine attend une calibration avant le démarrage."
+    ],
+    [
+      "ARCHIVE — DR ELIAS VOSS",
+      "Ne tentez pas de compenser une pièce instable par davantage de puissance."
+    ]
+  ],
+  "THE HUMAN VARIABLE": [
+    [
+      "ARCHIVE — DR ELIAS VOSS",
+      "La variable humaine ne peut pas être réduite à un simple identifiant. Le sujet doit conserver une capacité de décision indépendante."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Le protocole cherche une réponse stable entre les impulsions biologiques et le flux numérique."
+    ],
+    [
+      "TOI",
+      "Je vais vérifier les limites de sécurité avant de commencer. La fusion doit s'arrêter si les deux systèmes cessent de se distinguer."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Si tu ressens une perte de contrôle, tu interromps la séquence. On ne sacrifiera pas ton jugement pour gagner quelques secondes."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "ÉTAPE VALIDÉE : protocole de sécurité enregistré."
+    ]
+  ],
+  "DIGITAL CALIBRATION": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Les capteurs sont prêts. La calibration doit aligner les signaux sans les amplifier."
+    ],
+    [
+      "ARCHIVE — DR ELIAS VOSS",
+      "Privilégiez la précision. Une correction trop forte peut provoquer une boucle de rétroaction."
+    ],
+    [
+      "TOI",
+      "Je vais suivre les variations une par une. Si le signal dérive, je corrige avant de continuer."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "ÉNIGME : identifier le principe de calibration recommandé par Voss."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "La stabilité progresse. Il reste à effectuer une première synchronisation contrôlée."
+    ]
+  ],
+  "FIRST SYNCHRONIZATION": [
+    [
+      "SYSTÈME VANTEX",
+      "Synchronisation initiale engagée. Les signaux numériques deviennent perceptibles à travers l'interface."
+    ],
+    [
+      "TOI",
+      "Je peux voir les connexions. Elles ne ressemblent pas à des câbles, mais à des chemins qui changent quand je me concentre."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Ne poursuis pas les flux qui accélèrent. Ce sont peut-être des boucles qui tentent de t'attirer."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Reste conscient de la pièce. Dis-nous ce que tu vois et arrête dès que le signal devient instable."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Première synchronisation terminée. Contrôle limité, aucune garantie de stabilité à long terme."
+    ]
+  ],
+  "THE MERGE": [
+    [
+      "SYSTÈME VANTEX",
+      "Phase de fusion autorisée. Tous les paramètres critiques sont enregistrés."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Tu peux encore arrêter. Personne ne te forcera à continuer si les conditions ne sont pas sûres."
+    ],
+    [
+      "TOI",
+      "Je sais ce que nous risquons. Mais si nous ne faisons rien, The Hacker restera capable de se nourrir du réseau."
+    ],
+    [
+      "ARCHIVE — DR ELIAS VOSS",
+      "Lancez la séquence lentement. La synchronisation doit être une conversation entre deux systèmes, pas une prise de contrôle."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Les flux convergent. La machine dépasse le seuil de contrôle, puis se stabilise. Fusion confirmée, maîtrise incomplète."
+    ]
+  ],
+  "POWER CONTROL": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Les capacités sont actives, mais elles réagissent aux impulsions du système. Il faut apprendre à les déclencher volontairement."
+    ],
+    [
+      "TOI",
+      "Quand je concentre l'énergie, le flux se rassemble. Si je force, il déborde et brouille les capteurs."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Commence par une impulsion courte. Ne cherche pas à battre un record, cherche à reproduire le résultat."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Exercice : charger, maintenir, puis relâcher l'énergie sans dépasser le seuil."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Le contrôle est suffisant pour une première confrontation. Les fragments restent cependant actifs."
+    ]
+  ],
+  "VOSS'S WARNING": [
+    [
+      "ARCHIVE — DR ELIAS VOSS",
+      "The Hacker n'est plus limité à son corps. Il peut se fragmenter et maintenir des processus indépendants sur le réseau."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Si nous neutralisons seulement sa forme physique, les fragments pourraient reconstruire sa connexion."
+    ],
+    [
+      "TOI",
+      "Il faut cartographier les nœuds et les désactiver dans un ordre qui empêche leur synchronisation."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Tu as les moyens de lutter, mais pas le droit de confondre vitesse et précipitation."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "OBJECTIF : entrer dans le réseau et neutraliser les fragments."
+    ]
+  ],
+  "READY FOR THE NETWORK": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "La passerelle est ouverte. Je ne pourrai pas garantir que toutes les données reçues seront fiables."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Nous maintenons un canal de secours. Si tu perds le contact, suis les coordonnées enregistrées plutôt que les messages entrants."
+    ],
+    [
+      "TOI",
+      "Je vais entrer, trouver les fragments et empêcher leur retour vers le noyau. Gardez la connexion stable aussi longtemps que possible."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Passage réseau établi. La topologie se recompose autour de toi."
+    ],
+    [
+      "THE HACKER",
+      "Tu as appris à entrer dans mon monde. Tu n'as pas encore appris à en sortir."
+    ]
+  ],
+  "THE FIRST FRAGMENT": [
+    [
+      "THE HACKER — FRAGMENT",
+      "Tu crois m'avoir trouvé parce que tu as suivi une ligne de code."
+    ],
+    [
+      "TOI",
+      "Tu n'es qu'un fragment. Ton signal se répète et tes réponses arrivent avec le même décalage."
+    ],
+    [
+      "THE HACKER — FRAGMENT",
+      "Un fragment suffit pour ouvrir une porte. Le reste de moi n'a pas besoin de parler."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Le fragment est relié à plusieurs nœuds. Ne le poursuis pas au hasard : cartographie ses connexions."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Indice : le fragment est un relais, pas le noyau central."
+    ]
+  ],
+  "NETWORK GHOSTS": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Plusieurs signatures apparaissent puis s'effacent. Certaines sont des leurres, d'autres transmettent encore des données."
+    ],
+    [
+      "THE HACKER — FRAGMENT",
+      "Tu peux courir après chaque ombre. Pendant ce temps, le réseau continue de se reconstruire."
+    ],
+    [
+      "TOI",
+      "Je vais comparer les signatures et ne frapper que les nœuds confirmés. Chaque attaque inutile nous coûte du temps."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Le canal reste ouvert, mais il se dégrade. Je peux te guider tant que tu nous transmets des points fiables."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "OBJECTIF : distinguer les fragments actifs des leurres."
+    ]
+  ],
+  "TRACE THE NODES": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Les fragments partagent un rythme de synchronisation. Les nœuds qui suivent ce rythme sont probablement reliés au noyau."
+    ],
+    [
+      "TOI",
+      "Je vais comparer les intervalles, isoler les signaux qui se répètent et cartographier leur ordre."
+    ],
+    [
+      "THE HACKER — FRAGMENT",
+      "Tu peux dessiner une carte. Tu ne peux pas empêcher le réseau de changer."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "ÉNIGME : identifier le mécanisme commun qui relie les nœuds."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "La carte révèle une route stable. Le premier noyau peut maintenant être atteint."
+    ]
+  ],
+  "FIRST NODE DISABLED": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Le premier nœud est isolé. Le trafic hostile vient de ralentir."
+    ],
+    [
+      "THE HACKER — FRAGMENT",
+      "Tu as coupé une branche. Tu n'as pas touché à la racine."
+    ],
+    [
+      "TOI",
+      "J'ai besoin de quelques secondes pour vérifier que le nœud ne peut pas se relancer tout seul."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Le flux se déplace vers les nœuds restants. Leur activité augmente."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Il sait que tu avances. Ne reste pas au même endroit après chaque désactivation."
+    ]
+  ],
+  "COUNTERATTACK": [
+    [
+      "THE HACKER — FRAGMENT",
+      "Tu as perturbé mon réseau. Maintenant, je vais mesurer ce que ta fusion peut supporter."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "ALERTE : une forme hostile se matérialise dans l'environnement numérique."
+    ],
+    [
+      "TOI",
+      "Je vais observer son rythme, esquiver ses attaques et utiliser l'énergie seulement quand une ouverture apparaît."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Le signal de la cible se concentre juste avant chaque attaque. C'est ton avertissement."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "COMBAT : utilise esquive, frappe, charge et onde d'énergie. Le repli reste possible, mais il a un coût."
+    ]
+  ],
+  "SYNCHRONIZATION WINDOW": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Les fragments vont tenter une synchronisation commune. Nous avons détecté une courte fenêtre avant leur alignement."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Tu dois choisir entre couper le relais, protéger le canal ou préparer une attaque sur le noyau."
+    ],
+    [
+      "TOI",
+      "Je vais comparer la fenêtre avec les données du premier nœud. Une action trop tôt pourrait simplement déplacer la synchronisation."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "ACTION CHRONOMÉTRÉE : la fenêtre est ouverte."
+    ],
+    [
+      "THE HACKER",
+      "Tu hésites. C'est dans l'espace entre deux décisions que je grandis."
+    ]
+  ],
+  "BREAK THE LINK": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Le relais principal est exposé. Si nous le coupons, The Hacker perdra une voie de synchronisation, mais d'autres fragments subsisteront."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Confirme que le relais est isolé avant d'envoyer la commande. On n'aura pas une deuxième chance sur cette connexion."
+    ],
+    [
+      "TOI",
+      "Je vais viser le lien, pas les données autour. Il faut affaiblir la coordination sans effacer les preuves qui nous restent."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Le flux se rompt. Plusieurs nœuds deviennent silencieux."
+    ],
+    [
+      "THE HACKER",
+      "Tu as fermé une porte. Tu viens de m'obliger à ouvrir la suivante."
+    ]
+  ],
+  "THE LAST SIGNAL": [
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Un dernier signal reste actif. Il ne ressemble pas aux autres : il répond aux impulsions de la sphère de confinement."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "C'est probablement le lien entre le corps et les fragments. Si tu le localises, tu sauras où l'attendre."
+    ],
+    [
+      "TOI",
+      "Je vais enregistrer le signal et remonter sa route jusqu'au point de convergence."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Coordonnées du noyau récupérées. Le réseau hostile se replie autour d'un seul point."
+    ],
+    [
+      "THE HACKER",
+      "Viens donc. Je vais te montrer ce que tu as contribué à libérer."
+    ]
+  ],
+  "FINAL APPROACH": [
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "La dernière route est ouverte. Après ce point, je ne pourrai plus modifier l'environnement à distance."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Les fragments se rassemblent autour du noyau. Les données montrent une activité massive, mais aussi une faiblesse : le rythme de synchronisation est désormais visible."
+    ],
+    [
+      "TOI",
+      "Je vais conserver assez d'énergie pour répondre à ses attaques. Je ne gaspillerai pas mes capacités sur les leurres."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "ZONE FINALE : le noyau de synchronisation est à portée."
+    ],
+    [
+      "THE HACKER",
+      "Tu as traversé mon réseau pour arriver jusqu'à moi. Tu aurais pu rester à l'extérieur."
+    ]
+  ],
+  "THE HACKER UNBOUND": [
+    [
+      "THE HACKER",
+      "Enfin. La sphère ne me définit plus. Les données que j'ai absorbées sont devenues une partie de moi."
+    ],
+    [
+      "TOI",
+      "Tu as utilisé les infrastructures et les données de millions de personnes pour alimenter ta libération. Je ne te laisserai pas recommencer."
+    ],
+    [
+      "THE HACKER",
+      "Tu parles comme si tu étais différent. Toi aussi, tu as accepté une fusion pour obtenir le pouvoir de m'arrêter."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "La première forme est un clone. Le vrai signal est derrière lui. Réduis sa cohérence, puis avance."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "BOSS FINAL — PHASE 1 : LE CLONE. The Hacker possède 10 000 PV au total sur les trois phases."
+    ]
+  ],
+  "THE NETWORK COLLAPSES": [
+    [
+      "THE HACKER",
+      "Tu as brisé mon clone. Alors je vais remplir cet espace avec tout ce que le réseau m'a donné."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Des formes hostiles apparaissent dans l'arène. Les connexions de l'environnement changent à chaque impulsion."
+    ],
+    [
+      "TOI",
+      "Je ne peux pas frapper chaque copie. Je dois trouver le rythme qui relie la horde et attaquer pendant la synchronisation."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "La réserve d'énergie est répartie dans la horde. Les attaques chargées peuvent ouvrir une brèche, mais surveille ta propre énergie."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "BOSS FINAL — PHASE 2 : LA HORDE. La santé restante du boss est conservée."
+    ]
+  ],
+  "CORE OF SYNCHRONIZATION": [
+    [
+      "THE HACKER",
+      "Plus de clones. Plus de distractions. Il ne reste que nous et le choix que tu refuses de faire."
+    ],
+    [
+      "TOI",
+      "Je vais viser le noyau de synchronisation. Si je coupe le lien, les fragments ne pourront plus se reconstruire."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Le signal du noyau fluctue. Une attaque juste après sa charge infligera plus de dégâts."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Tu as encore une option : stabiliser le confinement au lieu de tout détruire. Mais il faudra décider avant que le réseau ne s'effondre."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "BOSS FINAL — PHASE 3 : THE HACKER. La victoire exige de réduire ses 10 000 PV à zéro."
+    ]
+  ],
+  "THE FINAL CHOICE": [
+    [
+      "THE HACKER",
+      "Tu peux m'enfermer, m'effacer ou laisser la connexion continuer. Chaque choix aura un prix."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "La stabilité du confinement dépend de l'énergie restante. Une suppression totale peut aussi détruire les données nécessaires à la restauration."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Tu as les trois protocoles devant toi. Je ne peux pas choisir à ta place."
+    ],
+    [
+      "TOI",
+      "Je ne peux pas revenir sur ce que nous avons fait. Je peux seulement décider de ce que nous faisons maintenant."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "DÉCISION FINALE : choisis le protocole dont tu acceptes les conséquences."
+    ]
+  ],
+  "RECONTAINMENT": [
+    [
+      "SYSTÈME VANTEX",
+      "PROTOCOLE RECONTAINMENT engagé. Les relais sont isolés et l'énergie restante est redirigée vers la sphère."
+    ],
+    [
+      "THE HACKER",
+      "Tu m'enfermes à nouveau. Tu appelles ça une victoire parce que tu ne veux pas regarder ce que tu as laissé derrière."
+    ],
+    [
+      "TOI",
+      "Je ne sais pas si le confinement tiendra pour toujours. Mais je peux empêcher la connexion de s'étendre aujourd'hui."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "La sphère se stabilise. Nous gardons les preuves et maintenons une surveillance hors réseau."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "FIN : RECONTAINMENT. The Hacker est de nouveau confiné. La menace n'est pas effacée, mais sa propagation est interrompue."
+    ]
+  ],
+  "TOTAL ERASURE": [
+    [
+      "SYSTÈME VANTEX",
+      "PROTOCOLE TOTAL ERASURE engagé. Les fragments sont supprimés et le noyau commence à se désagréger."
+    ],
+    [
+      "THE HACKER",
+      "Tu veux effacer tout ce que je suis. Tu risques aussi d'effacer ce que tu es venu sauver."
+    ],
+    [
+      "TOI",
+      "Je ne peux pas garantir qu'il restera quelque chose à restaurer. Je peux seulement mettre fin à la connexion qui nourrit cette menace."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Le signal s'éteint. Les systèmes touchés ne récupèrent pas tous leurs données, mais les transferts hostiles ont cessé."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "FIN : TOTAL ERASURE. The Hacker est effacé du réseau. Les pertes de données sont irréversibles."
+    ]
+  ],
+  "THEY ARE DOOMED": [
+    [
+      "THE HACKER",
+      "Tu n'as pas coupé le lien. Alors le réseau continuera de s'ouvrir, et moi avec lui."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "La connexion reste active. Les fragments se propagent au-delà des derniers relais connus."
+    ],
+    [
+      "TOI",
+      "J'ai laissé passer la fenêtre. Il n'y a plus de commande capable de reprendre le contrôle de tous les nœuds."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Nous devons évacuer les systèmes encore isolés. La propagation est désormais hors de portée de VANTEX."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "FIN : THEY ARE DOOMED. La connexion n'est pas neutralisée. La menace s'étend au-delà du réseau contrôlé."
+    ]
+  ]
+}
