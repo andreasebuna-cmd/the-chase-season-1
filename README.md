@@ -17,9 +17,12 @@ Every commit to the connected production branch will trigger a new deployment.
 ## Files
 
 - `index.html` — full-screen cinematic UI and interactive game loop.
-- `timeline.json` — original timeline source; the game loads this file at runtime.
+- `timeline.json` — original timeline source; arc descriptions, causes, conditions, results and outcomes are loaded at runtime.
+- `story-dialogue.json` — authored dialogue for all 50 timeline events, including the three endings.
 - `GAMEPLAY.md` — supplied game mechanics specification.
+- `GAMEPLAY_SYSTEMS.md` — implementation status, provisional combat values and remaining work.
+- `ASSET_GUIDE.md` — cinematic image names and art direction; the scene slots are wired into the interface.
 
 ## Current scope
 
-The site implements the menu, chapter list, dialogue/cutscene progression, context-sensitive choices, local save/resume, pause, fullscreen and the three final outcomes defined in the timeline. It uses only the supplied timeline and mechanics as narrative sources. The mechanics document itself notes that some parameters (including exact combat damage, attack cadence and death/retry rules) remain unspecified; those values are not invented here.
+The current prototype includes authored dialogue, object inspection, a persistent clue dossier, contextual text-answer puzzles, combat actions, a shared 10,000-HP boss pool across three phases, save/resume across gameplay phases, consequence tracking and conditional ending requirements. Combat values remain provisional; richer puzzle interfaces and several boss mechanics are outstanding. Add the cinematic images to assets/scenes using the exact filenames in ASSET_GUIDE.md.
