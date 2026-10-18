@@ -9,7 +9,7 @@ Static, browser-based narrative game. The interface is designed for Cloudflare P
 3. Choose **Production branch**: the repository's default branch.
 4. Set **Framework preset** to **None**.
 5. Leave **Build command** empty.
-6. Set **Build output directory** to `/` (the repository root).
+6. Set **Build output directory** to `.` (the repository root).
 7. Deploy.
 
 Every commit to the connected production branch will trigger a new deployment.
