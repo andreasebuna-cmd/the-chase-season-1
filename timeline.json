@@ -1,0 +1,998 @@
+{
+  "format": "fractured-fate-timeline",
+  "version": 1,
+  "exportedAt": "2026-10-18T15:22:47.682Z",
+  "rootIds": [
+    "node_mvdx623a_19"
+  ],
+  "nodes": [
+    {
+      "id": "node_mvdx623a_19",
+      "parent": null,
+      "name": "THE CHASE SEASON 1",
+      "type": "TIMELINE",
+      "desc": "",
+      "cause": "",
+      "condition": "",
+      "result": "",
+      "outcome": "",
+      "x": 250,
+      "y": 180
+    },
+    {
+      "id": "node_mvdx6eng_20",
+      "parent": "node_mvdx623a_19",
+      "name": "ARC 1 — THE BLACKOUT",
+      "type": "ARC",
+      "desc": "Le joueur découvre l'existence de The Hacker et les origines du projet PROJECT MERGE.",
+      "cause": "Des virus inconnus réapparaissent soudainement sur Internet.\n\n\n\nDes infrastructures cloud, notamment AWS et Oracle, sont touchées.\n\n\n\nDes sites Web disparaissent et des moteurs de recherche affichent des pages corrompues.\n\n\n\nVANTEX détecte une activité anormale liée à un ancien projet secret.",
+      "condition": "",
+      "result": "",
+      "outcome": "",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": "node_mvdyhub7_21",
+      "parent": "node_mvdx623a_19",
+      "name": "ARC 2 — THE DISAPPEARANCE",
+      "type": "ARC",
+      "desc": "Les virus commencent à dévorer les données du Web pour fournir de l'énergie à The Hacker, toujours enfermé dans sa sphère.",
+      "cause": "Les cyberattaques deviennent mondiales et simultanées.\n\n\n\nLes chercheurs découvrent que les données absorbées sont transférées vers la sphère.\n\n\n\nThe Hacker cherche à accumuler suffisamment d'énergie pour briser son confinement.",
+      "condition": "",
+      "result": "",
+      "outcome": "",
+      "x": 261.4464,
+      "y": 0
+    },
+    {
+      "id": "node_mvdyj99x_22",
+      "parent": "node_mvdx623a_19",
+      "name": "ARC 3 — BLACK VAULT",
+      "type": "ARC",
+      "desc": "Le joueur se rend dans la Zone 51 pour empêcher la libération de The Hacker et découvrir comment fonctionne sa prison.",
+      "cause": "La sphère de confinement présente des anomalies énergétiques.\n\n\n\nLes systèmes de sécurité commencent à céder.\n\n\n\nLes méthodes conventionnelles ne suffisent plus à maintenir The Hacker enfermé.",
+      "condition": "",
+      "result": "",
+      "outcome": "",
+      "x": 530.9903999999999,
+      "y": 0
+    },
+    {
+      "id": "node_mvdyk1fz_23",
+      "parent": "node_mvdx623a_19",
+      "name": "ARC 4 — PROJECT MERGE",
+      "type": "ARC",
+      "desc": "Pour combattre The Hacker, le joueur doit reproduire la fusion entre un être humain et le numérique, tout en maîtrisant cette technologie.",
+      "cause": "The Hacker devient trop puissant pour être vaincu par des moyens conventionnels.\n\n\n\nLes archives du Dr. Elias Voss révèlent l'existence de PROJECT MERGE.\n\n\n\nLe joueur découvre qu'une fusion maîtrisée pourrait lui permettre de combattre The Hacker à armes égales.",
+      "condition": "",
+      "result": "",
+      "outcome": "",
+      "x": 796.7424,
+      "y": 0
+    },
+    {
+      "id": "node_mvdyl60k_24",
+      "parent": "node_mvdx623a_19",
+      "name": "ARC 5 — GHOST IN THE NETWORK",
+      "type": "ARC",
+      "desc": "Le joueur affronte les fragments numériques de The Hacker et tente d'empêcher leur réunification avec son corps.",
+      "cause": "The Hacker commence à se connecter au réseau mondial.\n\n\n\nPlusieurs noyaux numériques alimentent sa progression.\n\n\n\nSi ces noyaux se synchronisent, il risque de devenir impossible à arrêter.",
+      "condition": "",
+      "result": "",
+      "outcome": "",
+      "x": 1072.2193919999997,
+      "y": 0
+    },
+    {
+      "id": "node_mvdyn582_25",
+      "parent": "node_mvdx623a_19",
+      "name": "ARC 6 — THE LAST CONNECTION",
+      "type": "ARC",
+      "desc": "Le joueur affronte The Hacker dans un combat final qui déterminera le destin de l'humanité.",
+      "cause": "The Hacker est libre et cherche à fusionner avec le réseau mondial.\n\n\n\nLe joueur a acquis les capacités nécessaires pour lui résister.\n\n\n\nLe dernier noyau de synchronisation devient le point central de leur affrontement.",
+      "condition": "",
+      "result": "",
+      "outcome": "RECONTAINMENT : The Hacker est enfermé à nouveau.\n\n\n\nTOTAL ERASURE : The Hacker est définitivement détruit.\n\n\n\nTHEY ARE DOOMED : The Hacker gagne et condamne l'humanité.",
+      "x": 1335.5981762560002,
+      "y": 0
+    },
+    {
+      "id": "event_the-blackout_01",
+      "parent": "node_mvdx6eng_20",
+      "name": "THE FIRST GLITCH",
+      "type": "EVENT",
+      "desc": "Des virus inconnus réapparaissent soudainement sur Internet.",
+      "cause": "Une activité virale inhabituelle est détectée sur plusieurs services.",
+      "condition": "Les premiers incidents sont signalés.",
+      "result": "VANTEX commence à surveiller l'anomalie.",
+      "outcome": "",
+      "x": 150.56,
+      "y": 180
+    },
+    {
+      "id": "event_the-blackout_02",
+      "parent": "node_mvdx6eng_20",
+      "name": "THE DIGITAL COLLAPSE",
+      "type": "EVENT",
+      "desc": "Les attaques se multiplient : des sites disparaissent et des résultats de recherche sont corrompus.",
+      "cause": "Les perturbations touchent plusieurs plateformes et services cloud.",
+      "condition": "Les incidents semblent coordonnés plutôt qu'indépendants.",
+      "result": "La piste d'une menace organisée devient prioritaire.",
+      "outcome": "",
+      "x": 418,
+      "y": 182
+    },
+    {
+      "id": "event_the-blackout_03",
+      "parent": "node_mvdx6eng_20",
+      "name": "VANTEX ALERT",
+      "type": "EVENT",
+      "desc": "Les systèmes de VANTEX repèrent une signature proche de celle d'un ancien incident classé secret.",
+      "cause": "Les analyses internes établissent une correspondance avec des archives restreintes.",
+      "condition": "Une alerte de sécurité est déclenchée.",
+      "result": "Le joueur est envoyé enquêter sur l'origine de l'anomalie.",
+      "outcome": "",
+      "x": 660,
+      "y": 180
+    },
+    {
+      "id": "event_the-blackout_04",
+      "parent": "node_mvdx6eng_20",
+      "name": "THE ABANDONED HEADQUARTERS",
+      "type": "EVENT",
+      "desc": "Le joueur explore le siège de VANTEX, partiellement abandonné et rongé par des défaillances numériques.",
+      "cause": "Les systèmes de sécurité sont instables et certaines archives sont corrompues.",
+      "condition": "Le joueur récupère des journaux, des enregistrements et des documents exploitables.",
+      "result": "Le nom PROJECT MERGE apparaît dans les données récupérées.",
+      "outcome": "",
+      "x": 880,
+      "y": 180
+    },
+    {
+      "id": "event_the-blackout_05",
+      "parent": "node_mvdx6eng_20",
+      "name": "PROJECT MERGE",
+      "type": "EVENT",
+      "desc": "Les archives du Dr Elias Voss révèlent un projet destiné à fusionner un humain avec des données numériques.",
+      "cause": "Le joueur reconstitue suffisamment de documents pour comprendre l'objectif du projet.",
+      "condition": "L'expérience a été menée cinq ans plus tôt.",
+      "result": "Le projet semble lié à l'origine de la menace actuelle.",
+      "outcome": "",
+      "x": 1100,
+      "y": 180
+    },
+    {
+      "id": "event_the-blackout_06",
+      "parent": "node_mvdx6eng_20",
+      "name": "THE HACKER REVEALED",
+      "type": "EVENT",
+      "desc": "Des enregistrements dévoilent le résultat de l'expérience : The Hacker, un hybride humain-numérique.",
+      "cause": "Les archives décrivent l'attaque de VANTEX et la capture de The Hacker.",
+      "condition": "Le joueur apprend qu'il a été enfermé dans une sphère de confinement.",
+      "result": "Les virus actuels pourraient être liés à son retour.",
+      "outcome": "",
+      "x": 1320,
+      "y": 180
+    },
+    {
+      "id": "event_the-blackout_07",
+      "parent": "node_mvdx6eng_20",
+      "name": "THE ENERGY LINK",
+      "type": "EVENT",
+      "desc": "Des chercheurs relient les données absorbées par les virus à l'énergie accumulée dans la sphère.",
+      "cause": "Les traces numériques et les relevés énergétiques présentent une correspondance.",
+      "condition": "Le lien entre les attaques et le confinement est confirmé.",
+      "result": "Chaque nouvelle attaque pourrait rapprocher The Hacker de sa libération.",
+      "outcome": "",
+      "x": 1540,
+      "y": 180
+    },
+    {
+      "id": "event_the-blackout_08",
+      "parent": "node_mvdx6eng_20",
+      "name": "BLACK VAULT COORDINATES",
+      "type": "EVENT",
+      "desc": "Le joueur découvre des coordonnées pointant vers BLACK VAULT, une installation souterraine secrète de la Zone 51.",
+      "cause": "Un document de sécurité identifie le site comme lieu de confinement de The Hacker.",
+      "condition": "La destination est confirmée.",
+      "result": "Le joueur doit rejoindre BLACK VAULT pour comprendre l'état de la prison.",
+      "outcome": "",
+      "x": 1760,
+      "y": 180
+    },
+    {
+      "id": "event_the-blackout_09",
+      "parent": "node_mvdx6eng_20",
+      "name": "THE COUNTDOWN",
+      "type": "EVENT",
+      "desc": "Les relevés indiquent que la sphère approche d'un seuil énergétique critique.",
+      "cause": "Les attaques continuent et l'énergie accumulée augmente.",
+      "condition": "Le risque de rupture du confinement devient imminent.",
+      "result": "Le temps disponible pour empêcher la libération se réduit.",
+      "outcome": "",
+      "x": 1980,
+      "y": 180
+    },
+    {
+      "id": "event_the-blackout_10",
+      "parent": "node_mvdx6eng_20",
+      "name": "END OF THE BLACKOUT",
+      "type": "EVENT",
+      "desc": "Le joueur quitte le siège de VANTEX avec les informations essentielles sur The Hacker et BLACK VAULT.",
+      "cause": "Les preuves réunies suffisent à établir une piste crédible.",
+      "condition": "L'enquête initiale est terminée, mais la menace reste active.",
+      "result": "L'histoire se poursuit avec l'ampleur mondiale des attaques dans THE DISAPPEARANCE.",
+      "outcome": "",
+      "x": 2200,
+      "y": 180
+    },
+    {
+      "id": "event_the-disappearance_01",
+      "parent": "node_mvdyhub7_21",
+      "name": "WORLDWIDE OUTAGE",
+      "type": "EVENT",
+      "desc": "Les pannes numériques se propagent à travers le monde et touchent des services jusque-là épargnés.",
+      "cause": "Les virus continuent de se multiplier et changent de cible rapidement.",
+      "condition": "La crise devient internationale.",
+      "result": "Le joueur doit déterminer comment les virus se déplacent et choisissent leurs cibles.",
+      "outcome": "",
+      "x": 220,
+      "y": 180
+    },
+    {
+      "id": "event_the-disappearance_02",
+      "parent": "node_mvdyhub7_21",
+      "name": "VANISHING WEBSITES",
+      "type": "EVENT",
+      "desc": "Des sites entiers disparaissent, comme si leur contenu avait été retiré du réseau.",
+      "cause": "Les journaux des serveurs montrent des pertes de données anormales.",
+      "condition": "Les données ne sont pas simplement effacées : elles semblent absorbées.",
+      "result": "Une enquête sur le comportement des virus devient nécessaire.",
+      "outcome": "",
+      "x": 440,
+      "y": 180
+    },
+    {
+      "id": "event_the-disappearance_03",
+      "parent": "node_mvdyhub7_21",
+      "name": "CORRUPTED SEARCH",
+      "type": "EVENT",
+      "desc": "Des recherches ordinaires redirigent parfois vers des pages inconnues et corrompues.",
+      "cause": "Les moteurs de recherche et les index Web sont contaminés.",
+      "condition": "Les virus peuvent détourner les chemins d'accès à l'information.",
+      "result": "Les communications fiables deviennent plus difficiles.",
+      "outcome": "",
+      "x": 660,
+      "y": 180
+    },
+    {
+      "id": "event_the-disappearance_04",
+      "parent": "node_mvdyhub7_21",
+      "name": "THE DATA HUNTERS",
+      "type": "EVENT",
+      "desc": "Le joueur identifie un motif : les virus ciblent surtout les données accessibles et les infrastructures qui les hébergent.",
+      "cause": "Des échantillons et des journaux réseau sont comparés.",
+      "condition": "Le comportement des virus paraît orienté vers la collecte de données.",
+      "result": "Le joueur cherche le point de convergence des transferts.",
+      "outcome": "",
+      "x": 880,
+      "y": 180
+    },
+    {
+      "id": "event_the-disappearance_05",
+      "parent": "node_mvdyhub7_21",
+      "name": "THE CLOUD TRAIL",
+      "type": "EVENT",
+      "desc": "Les traces des attaques mènent à plusieurs infrastructures cloud, dont AWS et Oracle Cloud.",
+      "cause": "Les données récupérées montrent des transferts anormaux entre services.",
+      "condition": "Une partie des données absorbées est envoyée vers une destination commune.",
+      "result": "Le lien avec la sphère de confinement se renforce.",
+      "outcome": "",
+      "x": 1100,
+      "y": 180
+    },
+    {
+      "id": "event_the-disappearance_06",
+      "parent": "node_mvdyhub7_21",
+      "name": "ENERGY TRANSFER",
+      "type": "EVENT",
+      "desc": "Les chercheurs confirment que les données absorbées sont converties en énergie pour The Hacker.",
+      "cause": "Les signatures des transferts correspondent aux variations énergétiques relevées à BLACK VAULT.",
+      "condition": "Le mécanisme d'alimentation est compris.",
+      "result": "Arrêter les virus devient aussi important que protéger les systèmes touchés.",
+      "outcome": "",
+      "x": 1320,
+      "y": 180
+    },
+    {
+      "id": "event_the-disappearance_07",
+      "parent": "node_mvdyhub7_21",
+      "name": "CUT THE FEED",
+      "type": "EVENT",
+      "desc": "Le joueur participe à une opération visant à interrompre plusieurs relais viraux.",
+      "cause": "Les relais identifiés peuvent être isolés sans détruire les données de preuve.",
+      "condition": "Une partie du flux énergétique est ralentie, mais pas supprimée.",
+      "result": "The Hacker adapte son réseau et la menace persiste.",
+      "outcome": "",
+      "x": 1540,
+      "y": 180
+    },
+    {
+      "id": "event_the-disappearance_08",
+      "parent": "node_mvdyhub7_21",
+      "name": "THE ROAD TO BLACK VAULT",
+      "type": "EVENT",
+      "desc": "Les dernières analyses montrent que le confinement ne tiendra probablement pas sans intervention directe.",
+      "cause": "La sphère continue d'accumuler de l'énergie malgré les contre-mesures.",
+      "condition": "Le joueur doit se rendre sur place.",
+      "result": "L'arc se conclut sur la mission vers BLACK VAULT.",
+      "outcome": "",
+      "x": 1760,
+      "y": 180
+    },
+    {
+      "id": "event_black-vault_01",
+      "parent": "node_mvdyj99x_22",
+      "name": "ARRIVAL AT AREA 51",
+      "type": "EVENT",
+      "desc": "Le joueur atteint la Zone 51 et localise l'accès à BLACK VAULT.",
+      "cause": "Les coordonnées récupérées chez VANTEX sont confirmées sur le terrain.",
+      "condition": "L'installation souterraine est retrouvée.",
+      "result": "Le joueur doit franchir les défenses du site.",
+      "outcome": "",
+      "x": 220,
+      "y": 180
+    },
+    {
+      "id": "event_black-vault_02",
+      "parent": "node_mvdyj99x_22",
+      "name": "LOCKDOWN PROTOCOL",
+      "type": "EVENT",
+      "desc": "Les systèmes de sécurité de BLACK VAULT se verrouillent automatiquement.",
+      "cause": "Les alertes internes détectent des anomalies dans les secteurs de confinement.",
+      "condition": "Les accès ordinaires deviennent inutilisables.",
+      "result": "Le joueur doit rétablir un accès sûr aux secteurs internes.",
+      "outcome": "",
+      "x": 440,
+      "y": 180
+    },
+    {
+      "id": "event_black-vault_03",
+      "parent": "node_mvdyj99x_22",
+      "name": "THE SILENT FACILITY",
+      "type": "EVENT",
+      "desc": "Le joueur traverse des couloirs désertés où les systèmes fonctionnent de façon intermittente.",
+      "cause": "Les communications sont perturbées et plusieurs postes sont hors service.",
+      "condition": "Les signes d'une évacuation ou d'une rupture de contrôle apparaissent.",
+      "result": "Les journaux du personnel deviennent une source d'information essentielle.",
+      "outcome": "",
+      "x": 660,
+      "y": 180
+    },
+    {
+      "id": "event_black-vault_04",
+      "parent": "node_mvdyj99x_22",
+      "name": "THE BULLET",
+      "type": "EVENT",
+      "desc": "Le joueur découvre la sphère ultra-sécurisée surnommée The Bullet.",
+      "cause": "Les relevés confirment qu'elle contient toujours The Hacker.",
+      "condition": "La prison est intacte, mais ses paramètres sont instables.",
+      "result": "Il faut comprendre comment renforcer le confinement.",
+      "outcome": "",
+      "x": 880,
+      "y": 180
+    },
+    {
+      "id": "event_black-vault_05",
+      "parent": "node_mvdyj99x_22",
+      "name": "CONTAINMENT FAILURE",
+      "type": "EVENT",
+      "desc": "Plusieurs systèmes de maintien de la sphère commencent à céder.",
+      "cause": "L'énergie de The Hacker dépasse les seuils prévus.",
+      "condition": "Les méthodes conventionnelles ne suffisent plus.",
+      "result": "Le joueur doit trouver une solution liée à PROJECT MERGE.",
+      "outcome": "",
+      "x": 1100,
+      "y": 180
+    },
+    {
+      "id": "event_black-vault_06",
+      "parent": "node_mvdyj99x_22",
+      "name": "VOSS'S LAST RECORDING",
+      "type": "EVENT",
+      "desc": "Un enregistrement du Dr Elias Voss décrit les principes de la fusion et les risques de l'expérience.",
+      "cause": "Le joueur accède à une archive sécurisée dans BLACK VAULT.",
+      "condition": "Une fusion maîtrisée pourrait contrer The Hacker, mais elle reste dangereuse.",
+      "result": "Le projet devient la seule piste crédible pour la suite.",
+      "outcome": "",
+      "x": 1320,
+      "y": 180
+    },
+    {
+      "id": "event_black-vault_07",
+      "parent": "node_mvdyj99x_22",
+      "name": "THE PRISON'S SECRET",
+      "type": "EVENT",
+      "desc": "Le joueur découvre que le confinement repose aussi sur une architecture numérique liée au réseau extérieur.",
+      "cause": "Des schémas et relevés relient la sphère à des systèmes de contrôle numériques.",
+      "condition": "La prison peut être affaiblie par une attaque sur ses connexions.",
+      "result": "Le joueur doit agir avant une rupture totale.",
+      "outcome": "",
+      "x": 1540,
+      "y": 180
+    },
+    {
+      "id": "event_black-vault_08",
+      "parent": "node_mvdyj99x_22",
+      "name": "NO WAY BACK",
+      "type": "EVENT",
+      "desc": "Les systèmes de BLACK VAULT atteignent un état critique et l'accès à la sphère devient trop dangereux.",
+      "cause": "Les dernières mesures de stabilisation échouent.",
+      "condition": "Le confinement ne peut plus être assuré durablement.",
+      "result": "Le joueur se prépare à maîtriser PROJECT MERGE pour affronter la menace.",
+      "outcome": "",
+      "x": 1760,
+      "y": 180
+    },
+    {
+      "id": "event_project-merge_01",
+      "parent": "node_mvdyk1fz_23",
+      "name": "REBUILD THE MACHINE",
+      "type": "EVENT",
+      "desc": "Le joueur rassemble les plans et composants nécessaires pour reconstruire le dispositif de PROJECT MERGE.",
+      "cause": "Les archives de Voss et les installations de BLACK VAULT fournissent les données de conception.",
+      "condition": "Le dispositif peut être remis en état.",
+      "result": "La préparation de la fusion commence.",
+      "outcome": "",
+      "x": 220,
+      "y": 180
+    },
+    {
+      "id": "event_project-merge_02",
+      "parent": "node_mvdyk1fz_23",
+      "name": "THE HUMAN VARIABLE",
+      "type": "EVENT",
+      "desc": "Le joueur étudie les paramètres biologiques et numériques nécessaires à une fusion stable.",
+      "cause": "Les notes de Voss montrent que l'expérience originale a échoué à contrôler plusieurs variables.",
+      "condition": "Des protocoles de sécurité sont établis.",
+      "result": "La fusion exige précision et contrôle plutôt que puissance brute.",
+      "outcome": "",
+      "x": 440,
+      "y": 180
+    },
+    {
+      "id": "event_project-merge_03",
+      "parent": "node_mvdyk1fz_23",
+      "name": "DIGITAL CALIBRATION",
+      "type": "EVENT",
+      "desc": "Le joueur calibre les systèmes afin qu'ils puissent intégrer des données sans perdre le contrôle de son identité.",
+      "cause": "Les tests révèlent des incompatibilités entre les modules.",
+      "condition": "Le dispositif atteint une stabilité minimale.",
+      "result": "Le joueur peut passer à l'étape suivante, avec un risque toujours présent.",
+      "outcome": "",
+      "x": 660,
+      "y": 180
+    },
+    {
+      "id": "event_project-merge_04",
+      "parent": "node_mvdyk1fz_23",
+      "name": "FIRST SYNCHRONIZATION",
+      "type": "EVENT",
+      "desc": "Une première synchronisation contrôlée relie le joueur au système numérique.",
+      "cause": "Les paramètres restent dans les limites définies pendant le test.",
+      "condition": "Le joueur perçoit et interagit brièvement avec les flux numériques.",
+      "result": "Ces nouvelles capacités doivent être entraînées avant un combat réel.",
+      "outcome": "",
+      "x": 880,
+      "y": 180
+    },
+    {
+      "id": "event_project-merge_05",
+      "parent": "node_mvdyk1fz_23",
+      "name": "THE MERGE",
+      "type": "EVENT",
+      "desc": "Le joueur subit la fusion humain-numérique pour acquérir les capacités nécessaires à l'affrontement.",
+      "cause": "Le dispositif est stable et les protocoles d'urgence sont activés.",
+      "condition": "La fusion réussit, mais laisse le joueur face à des capacités difficiles à maîtriser.",
+      "result": "Le joueur devient capable de résister à The Hacker.",
+      "outcome": "",
+      "x": 1100,
+      "y": 180
+    },
+    {
+      "id": "event_project-merge_06",
+      "parent": "node_mvdyk1fz_23",
+      "name": "POWER CONTROL",
+      "type": "EVENT",
+      "desc": "Le joueur apprend à contrôler ses nouvelles capacités sans laisser les données intégrées prendre le dessus.",
+      "cause": "Les premières utilisations sont imprécises et coûteuses en énergie.",
+      "condition": "Le contrôle progresse grâce à des essais guidés.",
+      "result": "Une maîtrise suffisante est nécessaire avant de poursuivre.",
+      "outcome": "",
+      "x": 1320,
+      "y": 180
+    },
+    {
+      "id": "event_project-merge_07",
+      "parent": "node_mvdyk1fz_23",
+      "name": "VOSS'S WARNING",
+      "type": "EVENT",
+      "desc": "Un dernier message de Voss avertit que The Hacker peut se fragmenter et agir à travers le réseau.",
+      "cause": "Le message est retrouvé dans les données complètes du projet.",
+      "condition": "Le joueur comprend que vaincre un seul corps ne suffira peut-être pas.",
+      "result": "Il faut localiser et neutraliser les fragments numériques.",
+      "outcome": "",
+      "x": 1540,
+      "y": 180
+    },
+    {
+      "id": "event_project-merge_08",
+      "parent": "node_mvdyk1fz_23",
+      "name": "READY FOR THE NETWORK",
+      "type": "EVENT",
+      "desc": "Le joueur quitte le laboratoire avec une fusion fonctionnelle et un objectif clair.",
+      "cause": "Les relevés détectent plusieurs noyaux numériques actifs.",
+      "condition": "La prochaine menace se trouve dans le réseau.",
+      "result": "L'arc mène à GHOST IN THE NETWORK.",
+      "outcome": "",
+      "x": 1760,
+      "y": 180
+    },
+    {
+      "id": "event_ghost-in-the-network_01",
+      "parent": "node_mvdyl60k_24",
+      "name": "THE FIRST FRAGMENT",
+      "type": "EVENT",
+      "desc": "Le joueur rencontre un fragment numérique de The Hacker opérant indépendamment de son corps.",
+      "cause": "Les relevés réseau révèlent une signature liée à The Hacker.",
+      "condition": "Le fragment est identifié comme un relais de sa présence.",
+      "result": "Le joueur commence à cartographier les autres noyaux.",
+      "outcome": "",
+      "x": 220,
+      "y": 180
+    },
+    {
+      "id": "event_ghost-in-the-network_02",
+      "parent": "node_mvdyl60k_24",
+      "name": "NETWORK GHOSTS",
+      "type": "EVENT",
+      "desc": "D'autres fragments apparaissent dans différentes parties du réseau et perturbent des systèmes critiques.",
+      "cause": "Les fragments partagent des signatures, mais leurs comportements varient.",
+      "condition": "The Hacker étend son influence sans être entièrement libre.",
+      "result": "Le joueur doit les localiser avant leur synchronisation.",
+      "outcome": "",
+      "x": 440,
+      "y": 180
+    },
+    {
+      "id": "event_ghost-in-the-network_03",
+      "parent": "node_mvdyl60k_24",
+      "name": "TRACE THE NODES",
+      "type": "EVENT",
+      "desc": "Le joueur suit les connexions entre les fragments pour identifier les noyaux principaux.",
+      "cause": "Les données de plusieurs attaques sont croisées avec les signatures numériques.",
+      "condition": "Une carte partielle des nœuds est obtenue.",
+      "result": "Les nœuds prioritaires deviennent des cibles.",
+      "outcome": "",
+      "x": 660,
+      "y": 180
+    },
+    {
+      "id": "event_ghost-in-the-network_04",
+      "parent": "node_mvdyl60k_24",
+      "name": "FIRST NODE DISABLED",
+      "type": "EVENT",
+      "desc": "Le joueur neutralise un premier noyau et réduit temporairement l'activité du réseau hostile.",
+      "cause": "Le noyau est isolé avant de se synchroniser avec les autres.",
+      "condition": "La progression de The Hacker ralentit.",
+      "result": "Les fragments restants accélèrent leur activité.",
+      "outcome": "",
+      "x": 880,
+      "y": 180
+    },
+    {
+      "id": "event_ghost-in-the-network_05",
+      "parent": "node_mvdyl60k_24",
+      "name": "COUNTERATTACK",
+      "type": "EVENT",
+      "desc": "The Hacker réagit et piège le joueur dans un environnement numérique instable.",
+      "cause": "Les fragments détectent la neutralisation du premier noyau.",
+      "condition": "Le joueur comprend que le réseau hostile apprend de ses actions.",
+      "result": "La stratégie doit changer pour éviter les pièges suivants.",
+      "outcome": "",
+      "x": 1100,
+      "y": 180
+    },
+    {
+      "id": "event_ghost-in-the-network_06",
+      "parent": "node_mvdyl60k_24",
+      "name": "SYNCHRONIZATION WINDOW",
+      "type": "EVENT",
+      "desc": "Les noyaux restants commencent une synchronisation qui pourrait réunifier les fragments.",
+      "cause": "Les signaux convergent vers un même protocole.",
+      "condition": "Une fenêtre limitée s'ouvre pour interrompre la synchronisation.",
+      "result": "Le joueur doit atteindre le dernier ensemble de nœuds.",
+      "outcome": "",
+      "x": 1320,
+      "y": 180
+    },
+    {
+      "id": "event_ghost-in-the-network_07",
+      "parent": "node_mvdyl60k_24",
+      "name": "BREAK THE LINK",
+      "type": "EVENT",
+      "desc": "Le joueur interrompt plusieurs connexions clés et empêche une synchronisation complète.",
+      "cause": "Les noyaux sont accessibles avant la fin du processus.",
+      "condition": "La réunification est retardée, mais la menace centrale demeure.",
+      "result": "The Hacker se concentre sur son dernier lien avec le monde réel.",
+      "outcome": "",
+      "x": 1540,
+      "y": 180
+    },
+    {
+      "id": "event_ghost-in-the-network_08",
+      "parent": "node_mvdyl60k_24",
+      "name": "THE LAST SIGNAL",
+      "type": "EVENT",
+      "desc": "Un signal puissant relie les fragments restants au corps de The Hacker.",
+      "cause": "Les relevés indiquent qu'un dernier noyau sert de point de convergence.",
+      "condition": "La position du dernier point de synchronisation est révélée.",
+      "result": "Le joueur se prépare à l'affrontement final.",
+      "outcome": "",
+      "x": 1760,
+      "y": 180
+    },
+    {
+      "id": "event_the-last-connection_01",
+      "parent": "node_mvdyn582_25",
+      "name": "FINAL APPROACH",
+      "type": "EVENT",
+      "desc": "Le joueur atteint le dernier point de synchronisation où The Hacker tente de se connecter au réseau mondial.",
+      "cause": "Les fragments restants convergent vers le même emplacement.",
+      "condition": "L'affrontement final devient inévitable.",
+      "result": "Le joueur doit empêcher la fusion complète de The Hacker avec le réseau.",
+      "outcome": "",
+      "x": 220,
+      "y": 180
+    },
+    {
+      "id": "event_the-last-connection_02",
+      "parent": "node_mvdyn582_25",
+      "name": "THE HACKER UNBOUND",
+      "type": "EVENT",
+      "desc": "The Hacker apparaît avec une puissance accrue grâce à l'énergie et aux données accumulées.",
+      "cause": "Le confinement a cédé et les fragments ont préparé sa libération.",
+      "condition": "The Hacker peut combattre directement le joueur.",
+      "result": "Le combat met à l'épreuve les capacités acquises grâce à PROJECT MERGE.",
+      "outcome": "",
+      "x": 440,
+      "y": 180
+    },
+    {
+      "id": "event_the-last-connection_03",
+      "parent": "node_mvdyn582_25",
+      "name": "THE NETWORK COLLAPSES",
+      "type": "EVENT",
+      "desc": "L'environnement numérique et les systèmes physiques deviennent instables pendant le combat.",
+      "cause": "The Hacker tente de forcer la connexion au réseau mondial.",
+      "condition": "Le champ de bataille se transforme en course pour empêcher la synchronisation.",
+      "result": "Le joueur doit atteindre le noyau central.",
+      "outcome": "",
+      "x": 660,
+      "y": 180
+    },
+    {
+      "id": "event_the-last-connection_04",
+      "parent": "node_mvdyn582_25",
+      "name": "CORE OF SYNCHRONIZATION",
+      "type": "EVENT",
+      "desc": "Le joueur découvre le noyau qui permet à The Hacker de se relier au réseau mondial.",
+      "cause": "Les fragments et les flux d'énergie convergent vers ce point.",
+      "condition": "Le noyau devient l'objectif principal du combat.",
+      "result": "Le joueur peut tenter de le neutraliser ou de couper la connexion.",
+      "outcome": "",
+      "x": 880,
+      "y": 180
+    },
+    {
+      "id": "event_the-last-connection_05",
+      "parent": "node_mvdyn582_25",
+      "name": "THE FINAL CHOICE",
+      "type": "EVENT",
+      "desc": "Le joueur atteint le point décisif et doit choisir comment mettre fin à la menace.",
+      "cause": "The Hacker est vulnérable, mais la solution choisie entraîne des conséquences différentes.",
+      "condition": "La résolution dépend de l'action finale du joueur.",
+      "result": "La fin obtenue détermine le destin de The Hacker et de l'humanité.",
+      "outcome": "",
+      "x": 1100,
+      "y": 180
+    },
+    {
+      "id": "event_the-last-connection_06",
+      "parent": "node_mvdyn582_25",
+      "name": "RECONTAINMENT",
+      "type": "EVENT",
+      "desc": "The Hacker est enfermé à nouveau dans un dispositif de confinement.",
+      "cause": "Le joueur choisit de préserver The Hacker tout en neutralisant sa menace immédiate.",
+      "condition": "Le confinement est rétabli.",
+      "result": "La menace est contenue, mais le risque d'un nouvel incident demeure.",
+      "outcome": "",
+      "x": 1356,
+      "y": 0
+    },
+    {
+      "id": "event_the-last-connection_07",
+      "parent": "node_mvdyn582_25",
+      "name": "TOTAL ERASURE",
+      "type": "EVENT",
+      "desc": "The Hacker est définitivement détruit.",
+      "cause": "Le joueur choisit une solution irréversible pour supprimer la menace.",
+      "condition": "The Hacker ne peut plus se reconnecter au réseau.",
+      "result": "L'humanité est sauvée, mais les conséquences de cette destruction restent à mesurer.",
+      "outcome": "",
+      "x": 1590,
+      "y": 259
+    },
+    {
+      "id": "event_the-last-connection_08",
+      "parent": "node_mvdyn582_25",
+      "name": "THEY ARE DOOMED",
+      "type": "EVENT",
+      "desc": "The Hacker l'emporte et fusionne avec le réseau mondial.",
+      "cause": "Le joueur échoue à interrompre la synchronisation finale.",
+      "condition": "The Hacker devient impossible à contenir et les systèmes mondiaux tombent sous son influence.",
+      "result": "L'humanité est condamnée par la victoire de The Hacker.",
+      "outcome": "",
+      "x": 1822,
+      "y": 0
+    }
+  ],
+  "edges": [
+    {
+      "from": "node_mvdx6eng_20",
+      "to": "node_mvdyhub7_21",
+      "type": "CANON"
+    },
+    {
+      "from": "node_mvdyhub7_21",
+      "to": "node_mvdyj99x_22",
+      "type": "CANON"
+    },
+    {
+      "from": "node_mvdyj99x_22",
+      "to": "node_mvdyk1fz_23",
+      "type": "CANON"
+    },
+    {
+      "from": "node_mvdyk1fz_23",
+      "to": "node_mvdyl60k_24",
+      "type": "ALTERNATIVE"
+    },
+    {
+      "from": "node_mvdyl60k_24",
+      "to": "node_mvdyn582_25",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-blackout_01",
+      "to": "event_the-blackout_02",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-blackout_02",
+      "to": "event_the-blackout_03",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-blackout_03",
+      "to": "event_the-blackout_04",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-blackout_04",
+      "to": "event_the-blackout_05",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-blackout_05",
+      "to": "event_the-blackout_06",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-blackout_06",
+      "to": "event_the-blackout_07",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-blackout_07",
+      "to": "event_the-blackout_08",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-blackout_08",
+      "to": "event_the-blackout_09",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-blackout_09",
+      "to": "event_the-blackout_10",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-disappearance_01",
+      "to": "event_the-disappearance_02",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-disappearance_02",
+      "to": "event_the-disappearance_03",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-disappearance_03",
+      "to": "event_the-disappearance_04",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-disappearance_04",
+      "to": "event_the-disappearance_05",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-disappearance_05",
+      "to": "event_the-disappearance_06",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-disappearance_06",
+      "to": "event_the-disappearance_07",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-disappearance_07",
+      "to": "event_the-disappearance_08",
+      "type": "CANON"
+    },
+    {
+      "from": "event_black-vault_01",
+      "to": "event_black-vault_02",
+      "type": "CANON"
+    },
+    {
+      "from": "event_black-vault_02",
+      "to": "event_black-vault_03",
+      "type": "CANON"
+    },
+    {
+      "from": "event_black-vault_03",
+      "to": "event_black-vault_04",
+      "type": "CANON"
+    },
+    {
+      "from": "event_black-vault_04",
+      "to": "event_black-vault_05",
+      "type": "CANON"
+    },
+    {
+      "from": "event_black-vault_05",
+      "to": "event_black-vault_06",
+      "type": "CANON"
+    },
+    {
+      "from": "event_black-vault_06",
+      "to": "event_black-vault_07",
+      "type": "CANON"
+    },
+    {
+      "from": "event_black-vault_07",
+      "to": "event_black-vault_08",
+      "type": "CANON"
+    },
+    {
+      "from": "event_project-merge_01",
+      "to": "event_project-merge_02",
+      "type": "CANON"
+    },
+    {
+      "from": "event_project-merge_02",
+      "to": "event_project-merge_03",
+      "type": "CANON"
+    },
+    {
+      "from": "event_project-merge_03",
+      "to": "event_project-merge_04",
+      "type": "CANON"
+    },
+    {
+      "from": "event_project-merge_04",
+      "to": "event_project-merge_05",
+      "type": "CANON"
+    },
+    {
+      "from": "event_project-merge_05",
+      "to": "event_project-merge_06",
+      "type": "CANON"
+    },
+    {
+      "from": "event_project-merge_06",
+      "to": "event_project-merge_07",
+      "type": "CANON"
+    },
+    {
+      "from": "event_project-merge_07",
+      "to": "event_project-merge_08",
+      "type": "CANON"
+    },
+    {
+      "from": "event_ghost-in-the-network_01",
+      "to": "event_ghost-in-the-network_02",
+      "type": "CANON"
+    },
+    {
+      "from": "event_ghost-in-the-network_02",
+      "to": "event_ghost-in-the-network_03",
+      "type": "CANON"
+    },
+    {
+      "from": "event_ghost-in-the-network_03",
+      "to": "event_ghost-in-the-network_04",
+      "type": "CANON"
+    },
+    {
+      "from": "event_ghost-in-the-network_04",
+      "to": "event_ghost-in-the-network_05",
+      "type": "CANON"
+    },
+    {
+      "from": "event_ghost-in-the-network_05",
+      "to": "event_ghost-in-the-network_06",
+      "type": "CANON"
+    },
+    {
+      "from": "event_ghost-in-the-network_06",
+      "to": "event_ghost-in-the-network_07",
+      "type": "CANON"
+    },
+    {
+      "from": "event_ghost-in-the-network_07",
+      "to": "event_ghost-in-the-network_08",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-last-connection_01",
+      "to": "event_the-last-connection_02",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-last-connection_02",
+      "to": "event_the-last-connection_03",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-last-connection_03",
+      "to": "event_the-last-connection_04",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-last-connection_04",
+      "to": "event_the-last-connection_05",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-last-connection_05",
+      "to": "event_the-last-connection_06",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-last-connection_06",
+      "to": "event_the-last-connection_07",
+      "type": "CANON"
+    },
+    {
+      "from": "event_the-last-connection_07",
+      "to": "event_the-last-connection_08",
+      "type": "CANON"
+    }
+  ]
+}
