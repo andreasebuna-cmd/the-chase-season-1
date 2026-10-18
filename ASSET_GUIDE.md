@@ -33,4 +33,4 @@ Les images sont facultatives pour tester le gameplay. Le jeu actuel conserve un 
 | `arc06_ending_they_are_doomed.webp` | Ville vue de nuit, réseau lumineux qui s'étend au-dessus des bâtiments, ambiance de menace persistante. |
 
 ## Intégration
-Place les fichiers dans `assets/scenes/` en gardant exactement les noms du tableau. Les images ne sont pas encore automatiquement associées à chaque scène; l'intégration scène-par-scène est une étape suivante.
+Place les fichiers dans `assets/scenes/` en gardant exactement les noms du tableau. Les emplacements de scène sont déjà associés à ces noms dans index.html. Il suffit de déposer les fichiers dans ce dossier avec les noms exacts. Tant qu'un fichier manque, le décor abstrait de secours reste affiché.
