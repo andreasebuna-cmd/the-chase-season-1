@@ -179,19 +179,93 @@ initGameState();
 function gamePanel(id){$("explorePanel").hidden=id!=="explore";$("puzzlePanel").hidden=id!=="puzzle";$("combatPanel").hidden=id!=="combat";}
 function updateVitals(){initGameState();const ev=current();$("eventDesc").textContent=ev.desc+"\n\nÉTAT DU JOUEUR : PV "+state.hp+"/100 · ÉNERGIE "+state.energy+"/100 · INDICES "+state.clues.length;}
 function exploredKey(){return String(state.index);}
-function hotspotData(ev){const t=ev.title;const common=[
-{name:"Terminal local",desc:"Examiner les journaux et les dernières commandes.",clue:"LOG_"+state.index,result:"Un journal horodaté révèle une activité anormale juste avant l'incident."},
-{name:"Environnement",desc:"Inspecter la pièce et les traces laissées sur place.",clue:"TRACE_"+state.index,result:"Des traces matérielles confirment que l'incident a affecté le lieu, pas seulement les écrans."},
-{name:"Dossier sécurisé",desc:"Chercher un document, une carte ou une note exploitable.",clue:"FILE_"+state.index,result:"Un dossier récupéré contient une référence utile pour la suite."}];
-if(/BULLET|CONTAINMENT|PRISON|VOSS|MERGE|CALIBRATION|SYNCHRONIZATION|POWER CONTROL|HUMAN VARIABLE/.test(t))return[
+function hotspotData(ev){const t=ev.title;const byEvent={
+"THE FIRST GLITCH":[
+{name:"Terminal de diagnostic",desc:"Comparer l'heure système et la première anomalie.",clue:"GLITCH_CLOCK",result:"Le premier paquet anormal précède la panne visible de 4,7 secondes."},
+{name:"Mur d'écrans",desc:"Repérer les écrans qui réagissent encore.",clue:"GLITCH_SCREEN",result:"Un seul écran affiche brièvement une signature VANTEX inversée."},
+{name:"Prise de maintenance",desc:"Vérifier le matériel sous le bureau.",clue:"GLITCH_PORT",result:"Un port de maintenance a transmis des données alors que le terminal était éteint."}],
+"VANTEX ALERT":[
+{name:"Console d'alerte",desc:"Lire l'origine et l'horodatage de l'alerte.",clue:"ALERT_SOURCE",result:"L'alerte provient d'un compte administrateur désactivé depuis plusieurs années."},
+{name:"Registre d'accès",desc:"Comparer les identifiants actifs et archivés.",clue:"ALERT_VOSS",result:"Le compte associé porte le nom VOSS, mais sa signature de connexion est récente."},
+{name:"Carte des serveurs",desc:"Repérer les systèmes touchés en premier.",clue:"ALERT_ROUTE",result:"Les premiers systèmes touchés forment une route vers les archives de PROJECT MERGE."}],
+"THE ABANDONED HEADQUARTERS":[
+{name:"Console hors tension",desc:"Récupérer le journal local sans redémarrer le terminal.",clue:"HQ_LOG",result:"Le journal montre que les portes se sont verrouillées avant la coupure générale."},
+{name:"Porte de service",desc:"Examiner le mécanisme de verrouillage.",clue:"HQ_DOOR",result:"Le verrouillage a été déclenché à distance, pas par le système incendie."},
+{name:"Tableau d'évacuation",desc:"Reconstituer les dernières personnes présentes.",clue:"HQ_EVAC",result:"Une évacuation a été enregistrée, mais aucun départ n'a été confirmé à la sortie nord."}],
+"PROJECT MERGE":[
+{name:"Dossier d'architecture",desc:"Lire l'objectif officiel du projet.",clue:"MERGE_PLAN",result:"Le projet vise à connecter une conscience humaine à un système distribué."},
+{name:"Schéma neuronal",desc:"Comparer le modèle humain et le modèle numérique.",clue:"MERGE_HUMAN",result:"Le modèle exige une variable humaine intacte; la remplacer par une copie provoque une dérive."},
+{name:"Rapport d'incident",desc:"Lire la note que le comité a classée.",clue:"MERGE_INCIDENT",result:"Le premier essai a été interrompu après une synchronisation non autorisée."}],
+"THE HACKER REVEALED":[
+{name:"Profil crypté",desc:"Comparer le profil aux traces du réseau.",clue:"HACKER_PROFILE",result:"The Hacker utilise des identifiants de plusieurs personnes, mais une seule signature persiste dans chaque copie."},
+{name:"Vidéo fragmentée",desc:"Lire les images encore récupérables.",clue:"HACKER_VIDEO",result:"La silhouette visible n'est pas stable : elle se reconstruit à partir des données capturées."},
+{name:"Canal de commande",desc:"Remonter jusqu'au serveur qui donne les ordres.",clue:"HACKER_CHANNEL",result:"Les commandes convergent vers un relais extérieur à VANTEX."}],
+"BLACK VAULT COORDINATES":[
+{name:"Carte topographique",desc:"Comparer les coordonnées récupérées.",clue:"VAULT_MAP",result:"Les coordonnées correspondent à un secteur militaire isolé du Nevada."},
+{name:"Transmission chiffrée",desc:"Déchiffrer l'indicatif du site.",clue:"VAULT_CALLSIGN",result:"L'indicatif BLACK VAULT est associé à une installation de confinement."},
+{name:"Itinéraire de sécurité",desc:"Identifier la route qui évite les points de contrôle.",clue:"VAULT_ROUTE",result:"Un ancien itinéraire de maintenance permet d'approcher le site sans passer par l'entrée principale."}],
+"THE COUNTDOWN":[
+{name:"Horloge réseau",desc:"Comparer le compte à rebours à l'heure locale.",clue:"COUNT_CLOCK",result:"Le compte à rebours n'est pas local : il est synchronisé avec le noyau distant."},
+{name:"Alimentation de secours",desc:"Vérifier ce qui maintient la séquence active.",clue:"COUNT_POWER",result:"Couper l'alimentation locale ne suffira pas tant que le relais distant reste connecté."},
+{name:"Console d'interruption",desc:"Examiner la commande d'arrêt.",clue:"COUNT_ABORT",result:"L'arrêt exige une confirmation physique et une clé de maintenance."}],
+"CORRUPTED SEARCH":[
+{name:"Index de recherche",desc:"Comparer les requêtes supprimées.",clue:"SEARCH_INDEX",result:"Les recherches effacées contenaient toutes le mot-clé ENERGY."},
+{name:"Cache du navigateur",desc:"Lire les fragments qui n'ont pas été écrasés.",clue:"SEARCH_CACHE",result:"Les fragments pointent vers une route SOURCE → RELAIS → DESTINATION."},
+{name:"Certificat du site",desc:"Examiner le certificat qui a remplacé les pages.",clue:"SEARCH_CERT",result:"Le faux certificat a été signé par un nœud lié au projet Black Vault."}],
+"THE CLOUD TRAIL":[
+{name:"Carte des fournisseurs",desc:"Comparer les itinéraires des données.",clue:"CLOUD_MAP",result:"Les flux traversent plusieurs fournisseurs, puis convergent vers un seul point."},
+{name:"Journal DNS",desc:"Repérer les noms qui changent trop vite.",clue:"CLOUD_DNS",result:"Les domaines leurres changent, mais l'adresse du relais reste stable."},
+{name:"Nœud de transit",desc:"Inspecter le dernier relais avant la destination.",clue:"CLOUD_RELAY",result:"Le dernier relais transmet des paquets vers BLACK VAULT."}],
+"LOCKDOWN PROTOCOL":[
+{name:"Clavier de secours",desc:"Examiner les règles d'authentification.",clue:"LOCK_KEYPAD",result:"Le système attend une référence de projet, pas un mot de passe personnel."},
+{name:"Journal de sécurité",desc:"Lire le motif du verrouillage.",clue:"LOCK_LOG",result:"Le confinement s'est verrouillé après une perte de synchronisation."},
+{name:"Panneau manuel",desc:"Chercher une commande qui n'est pas reliée au réseau.",clue:"LOCK_MANUAL",result:"Un circuit manuel existe, mais son activation désactivera les portes automatiques."}],
+"THE BULLET":[
+{name:"Anneau externe",desc:"Observer les anneaux qui maintiennent la sphère.",clue:"BULLET_RING",result:"Les anneaux maintiennent une barrière de confinement, ils ne génèrent pas l'énergie."},
+{name:"Console de pression",desc:"Lire la stabilité interne.",clue:"BULLET_PRESSURE",result:"La pression varie au rythme des connexions externes."},
+{name:"Journal de Voss",desc:"Écouter l'avertissement associé à la sphère.",clue:"BULLET_VOSS",result:"Voss avertit que toute surcharge peut ouvrir une brèche plutôt que libérer la pression."}],
+"CONTAINMENT FAILURE":[
+{name:"Console de confinement",desc:"Lire les alarmes en cours.",clue:"FAILURE_ALARM",result:"Trois relais perdent leur synchronisation dans un ordre précis."},
+{name:"Soupape manuelle",desc:"Examiner la commande physique.",clue:"FAILURE_VALVE",result:"La soupape peut ralentir la dégradation, mais exige une alimentation stable."},
+{name:"Capteur de phase",desc:"Comparer les oscillations du champ.",clue:"FAILURE_PHASE",result:"Le champ s'effondre à chaque fois que le noyau reçoit une impulsion réseau."}],
+"VOSS'S LAST RECORDING":[
+{name:"Enregistrement principal",desc:"Lire la dernière minute du message.",clue:"VOSS_MAIN",result:"Voss dit que The Hacker n'est plus une simple intrusion : il utilise la fusion comme corps."},
+{name:"Piste audio secondaire",desc:"Isoler les sons masqués derrière le message.",clue:"VOSS_AUDIO",result:"Un signal répété correspond au rythme du noyau de synchronisation."},
+{name:"Métadonnées du fichier",desc:"Vérifier quand l'enregistrement a été créé.",clue:"VOSS_META",result:"L'enregistrement a été modifié après la disparition de Voss."}],
+"REBUILD THE MACHINE":[
+{name:"Châssis central",desc:"Inspecter l'alignement des composants.",clue:"MACHINE_FRAME",result:"Le châssis ne doit pas être alimenté avant la calibration."},
+{name:"Régulateur d'énergie",desc:"Lire la plage de fonctionnement.",clue:"MACHINE_REG",result:"Le régulateur supporte les variations, mais pas une montée brutale de puissance."},
+{name:"Interface humaine",desc:"Vérifier le module qui protège la conscience.",clue:"MACHINE_HUMAN",result:"Le module humain doit rester indépendant de la boucle de contrôle automatique."}],
+"THE HUMAN VARIABLE":[
+{name:"Module biométrique",desc:"Vérifier les données biologiques de référence.",clue:"HUMAN_BIO",result:"Les mesures prouvent que la conscience ne peut pas être réduite à une copie de données."},
+{name:"Modèle numérique",desc:"Comparer la copie et la référence.",clue:"HUMAN_COPY",result:"La copie dérive lorsque les souvenirs sont modifiés pour optimiser la synchronisation."},
+{name:"Interrupteur d'isolement",desc:"Localiser la commande qui protège le module humain.",clue:"HUMAN_ISOLATE",result:"L'isolement protège la variable humaine, mais réduit la puissance disponible."}],
+"TRACE THE NODES":[
+{name:"Carte de fragments",desc:"Comparer les connexions visibles.",clue:"NODE_MAP",result:"Tous les fragments convergent vers un relais de synchronisation central."},
+{name:"Nœud périphérique",desc:"Examiner les paquets transmis.",clue:"NODE_EDGE",result:"Le nœud périphérique ne fait que relayer les données, il ne contrôle pas les fragments."},
+{name:"Nœud central",desc:"Lire l'identifiant du nœud le plus actif.",clue:"NODE_CORE",result:"Le nœud central orchestre la synchronisation et constitue la cible prioritaire."}],
+"THE HACKER UNBOUND":[
+{name:"Clone instable",desc:"Observer le décalage entre l'image et son ombre.",clue:"BOSS_CLONE",result:"Le clone anticipe les mouvements visibles, mais réagit mal aux changements de rythme."},
+{name:"Barrière de données",desc:"Repérer ce qui alimente le double.",clue:"BOSS_FEED",result:"Le clone se régénère grâce aux paquets du réseau; couper le flux réduit sa récupération."},
+{name:"Console tactique",desc:"Analyser le cycle d'attaque.",clue:"BOSS_PATTERN",result:"Le clone lance une attaque renforcée tous les trois tours."}],
+"THE NETWORK COLLAPSES":[
+{name:"Essaim de fragments",desc:"Observer la trajectoire des unités hostiles.",clue:"HORDE_PATH",result:"Les fragments attaquent en alternance et se reforment si le relais reste actif."},
+{name:"Relais de régénération",desc:"Suivre les paquets de réparation.",clue:"HORDE_REGEN",result:"La régénération de la horde passe par un seul relais identifiable."},
+{name:"Panneau de contre-mesure",desc:"Lire les options tactiques disponibles.",clue:"HORDE_COUNTER",result:"Désactiver le relais empêche la horde de se régénérer à chaque tour."}],
+"CORE OF SYNCHRONIZATION":[
+{name:"Noyau de synchronisation",desc:"Observer le rythme des impulsions.",clue:"CORE_PULSE",result:"Le noyau libère une onde offensive toutes les quatre actions."},
+{name:"Flux de contrôle",desc:"Repérer les paquets parasites.",clue:"CORE_VIRUS",result:"Le virus absorbe l'énergie du joueur toutes les trois actions."},
+{name:"Fenêtre de repli",desc:"Calculer le rythme des retraites.",clue:"CORE_RETREAT",result:"The Hacker se retire temporairement toutes les cinq actions."}]
+};if(byEvent[t])return byEvent[t];if(/BULLET|CONTAINMENT|PRISON|VOSS|MERGE|CALIBRATION|SYNCHRONIZATION|POWER CONTROL|HUMAN VARIABLE/.test(t))return[
 {name:"Console de confinement",desc:"Lire les paramètres sans modifier le système.",clue:"CONTAIN_"+state.index,result:"Les relevés révèlent une instabilité liée aux connexions externes."},
 {name:"Enregistrement de Voss",desc:"Écouter les dernières instructions disponibles.",clue:"VOSS_"+state.index,result:"Voss insiste sur la synchronisation précise et les risques d'une surcharge."},
-{name:"Relais d'énergie",desc:"Suivre le trajet de l'énergie dans le dispositif.",clue:"ENERGY_"+state.index,result:"Le relais montre où l'énergie entre, circule et peut être interrompue."}];
-if(/NETWORK|FRAGMENT|NODE|LINK|SIGNAL|CLOUD|DATA|WEBSITE|OUTAGE|CORRUPTED/.test(t))return[
+{name:"Relais d'énergie",desc:"Suivre le trajet de l'énergie dans le dispositif.",clue:"ENERGY_"+state.index,result:"Le relais montre où l'énergie entre, circule et peut être interrompue."}];if(/NETWORK|FRAGMENT|NODE|LINK|SIGNAL|CLOUD|DATA|WEBSITE|OUTAGE|CORRUPTED/.test(t))return[
 {name:"Trafic réseau",desc:"Comparer les paquets entrants et sortants.",clue:"NET_"+state.index,result:"Le trafic forme une route cohérente vers un nœud de synchronisation."},
 {name:"Nœud compromis",desc:"Identifier le processus qui détourne les données.",clue:"NODE_"+state.index,result:"Le processus malveillant dépend d'un relais identifiable."},
-{name:"Archive récupérée",desc:"Ouvrir un fragment de données encore lisible.",clue:"ARCHIVE_"+state.index,result:"Le fragment confirme que les données volées alimentent la menace."}];
-return common;}
+{name:"Archive récupérée",desc:"Ouvrir un fragment de données encore lisible.",clue:"ARCHIVE_"+state.index,result:"Le fragment confirme que les données volées alimentent la menace."}];return[
+{name:"Terminal local",desc:"Examiner les journaux et les dernières commandes.",clue:"LOG_"+state.index,result:"Un journal horodaté révèle une activité anormale juste avant l'incident."},
+{name:"Environnement",desc:"Inspecter la pièce et les traces laissées sur place.",clue:"TRACE_"+state.index,result:"Des traces matérielles confirment que l'incident a affecté le lieu, pas seulement les écrans."},
+{name:"Dossier sécurisé",desc:"Chercher un document, une carte ou une note exploitable.",clue:"FILE_"+state.index,result:"Un dossier récupéré contient une référence utile pour la suite."}];}
 function startExploration(){state.phase="explore";gamePanel("explore");$("choiceList").hidden=true;$("actionRow").hidden=true;$("outcomeBox").hidden=true;$("dialogueBox").hidden=true;const ev=current(),key=exploredKey();state.visited[key]=state.visited[key]||[];const root=$("explorePanel");root.innerHTML='<div class="system-heading">PHASE 02 // EXPLORATION</div><p class="system-copy">Examine la zone avant de décider. Chaque objet ne peut être inspecté qu’une fois pendant cet événement. Les indices sont conservés dans ton dossier.</p><div class="status-strip" id="exploreStats"></div><div class="hotspot-grid" id="hotspots"></div><div class="system-log" id="exploreLog">Aucun objet inspecté.</div><button class="next" id="leaveExplore" disabled>TERMINER L’EXPLORATION →</button>';
 const stats=$("exploreStats");stats.innerHTML='<span class="status-chip">PV '+state.hp+'/100</span><span class="status-chip">ÉNERGIE '+state.energy+'/100</span><span class="status-chip">INDICES '+state.clues.length+'</span>';
 const grid=$("hotspots");hotspotData(ev).forEach((o,i)=>{const b=document.createElement("button");b.className="hotspot";b.innerHTML='<strong>'+esc(o.name)+'</strong><span>'+esc(o.desc)+'</span>';if(state.visited[key].includes(i)){b.classList.add("done");b.disabled=true;b.querySelector("span").textContent="Déjà inspecté";}b.onclick=()=>{state.visited[key].push(i);state.clues.push({id:o.clue,title:o.name,event:ev.title,text:o.result});if(!state.inventory.includes(o.clue))state.inventory.push(o.clue);b.classList.add("done");b.disabled=true;b.querySelector("span").textContent="Indice ajouté au dossier";$("exploreLog").textContent=o.result+"\n\nINDICE AJOUTÉ : "+o.clue;const remaining=grid.querySelectorAll("button:not(:disabled)").length;$("leaveExplore").disabled=remaining>0;saveQuiet();};grid.appendChild(b);});$("leaveExplore").disabled=state.visited[key].length<3;$("leaveExplore").onclick=()=>{if(needsPuzzle(ev)&&!state.puzzles[ev.title]){startPuzzle();}else if(isCombatEvent(ev)){startCombat();}else{gamePanel("");$("dialogueBox").hidden=true;showChoicesAfterExploration();}};if(state.visited[key].length>=3)$("leaveExplore").disabled=false;updateVitals();}
