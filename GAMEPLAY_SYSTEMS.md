@@ -18,7 +18,7 @@ Le document de conception spécifie 10 000 PV pour The Hacker, mais laisse certa
 ## À compléter ensuite
 - Étoffer les dialogues : les 50 événements ont désormais une première version scénarisée, mais plusieurs scènes doivent gagner en longueur et en interactions.
 - Remplacer progressivement les réponses textuelles par des interfaces dédiées (claviers, cartes de nœuds, panneaux de circuit) et des énigmes à plusieurs étapes.
-- Donner à chaque phase du boss ses attaques propres, ses clones et hordes réellement actifs, ses retraits temporaires et sa régénération.
+- Faire évoluer les phases du boss vers des animations et des patterns visuels distincts; les règles de combat sont déjà différenciées, mais les clones et les hordes ne sont pas encore représentés par des entités visuelles séparées.
 - Développer davantage les ramifications entre les arcs, les dialogues alternatifs et les conséquences différées.
 - Créer et déposer les images dans assets/scenes; les emplacements sont reliés mais les illustrations ne sont pas encore fournies.
 - Tests de parcours complets, équilibrage, reprise d'une sauvegarde pendant chaque phase.
