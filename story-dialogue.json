@@ -23,6 +23,14 @@
     [
       "SYSTÈME VANTEX",
       "ALERTE : activité détectée dans le laboratoire fermé. Source de l'alerte inconnue."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Point vérifiable pour cette étape : Une activité virale inhabituelle est détectée sur plusieurs services. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : VANTEX commence à surveiller l'anomalie. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "THE DIGITAL COLLAPSE": [
@@ -45,6 +53,14 @@
     [
       "NIKO — ANALYSTE RÉSEAU",
       "Toutes les anomalies convergent vers une signature ancienne. Quelque chose teste les défenses de VANTEX."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Point vérifiable pour cette étape : Les perturbations touchent plusieurs plateformes et services cloud. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : La piste d'une menace organisée devient prioritaire. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "VANTEX ALERT": [
@@ -67,6 +83,14 @@
     [
       "SYSTÈME VANTEX",
       "NOUVEL OBJECTIF : retrouver l'origine de la signature et vérifier le laboratoire."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Point vérifiable pour cette étape : Les analyses internes établissent une correspondance avec des archives restreintes. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le joueur est envoyé enquêter sur l'origine de l'anomalie. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "THE ABANDONED HEADQUARTERS": [
@@ -89,6 +113,14 @@
     [
       "MARA — RESPONSABLE SÉCURITÉ",
       "Si tu trouves un nom dans les archives, vérifie-le ailleurs. Le système peut fabriquer de faux rapports."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Point vérifiable pour cette étape : Les systèmes de sécurité sont instables et certaines archives sont corrompues. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le nom PROJECT MERGE apparaît dans les données récupérées. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "PROJECT MERGE": [
@@ -111,6 +143,14 @@
     [
       "SYSTÈME VANTEX",
       "Le dossier suivant est verrouillé. Une clé de maintenance est requise."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Point vérifiable pour cette étape : Le joueur reconstitue suffisamment de documents pour comprendre l'objectif du projet. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le projet semble lié à l'origine de la menace actuelle. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "THE HACKER REVEALED": [
@@ -133,6 +173,14 @@
     [
       "SYSTÈME VANTEX",
       "STATUT DU CONFINEMENT : INCONNU. Dernière télémétrie reçue : il y a 11 minutes."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Point vérifiable pour cette étape : Les archives décrivent l'attaque de VANTEX et la capture de The Hacker. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Les virus actuels pourraient être liés à son retour. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "THE ENERGY LINK": [
@@ -155,6 +203,14 @@
     [
       "SYSTÈME VANTEX",
       "OBJECTIF MIS À JOUR : localiser BLACK VAULT et vérifier l'état de la sphère."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Point vérifiable pour cette étape : Les traces numériques et les relevés énergétiques présentent une correspondance. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Chaque nouvelle attaque pourrait rapprocher The Hacker de sa libération. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "BLACK VAULT COORDINATES": [
@@ -177,6 +233,14 @@
     [
       "SYSTÈME VANTEX",
       "Destination confirmée : secteur sécurisé de la Zone 51."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Point vérifiable pour cette étape : Un document de sécurité identifie le site comme lieu de confinement de The Hacker. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le joueur doit rejoindre BLACK VAULT pour comprendre l'état de la prison. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "THE COUNTDOWN": [
@@ -199,6 +263,14 @@
     [
       "SYSTÈME VANTEX",
       "ACTION CHRONOMÉTRÉE : la fenêtre d'intervention est limitée."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Point vérifiable pour cette étape : Les attaques continuent et l'énergie accumulée augmente. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le temps disponible pour empêcher la libération se réduit. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "END OF THE BLACKOUT": [
@@ -221,6 +293,14 @@
     [
       "SYSTÈME VANTEX",
       "FIN DE L'ARC 1. La menace dépasse désormais l'infrastructure VANTEX."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Point vérifiable pour cette étape : Les preuves réunies suffisent à établir une piste crédible. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : L'histoire se poursuit avec l'ampleur mondiale des attaques dans THE DISAPPEARANCE. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "WORLDWIDE OUTAGE": [
@@ -243,6 +323,14 @@
     [
       "SYSTÈME VANTEX",
       "Nouvel objectif : identifier la logique de sélection des cibles."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Point vérifiable pour cette étape : Les virus continuent de se multiplier et changent de cible rapidement. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le joueur doit déterminer comment les virus se déplacent et choisissent leurs cibles. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "VANISHING WEBSITES": [
@@ -265,6 +353,14 @@
     [
       "SYSTÈME VANTEX",
       "Hypothèse confirmée : les données sont transférées, pas simplement effacées."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Point vérifiable pour cette étape : Les journaux des serveurs montrent des pertes de données anormales. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Une enquête sur le comportement des virus devient nécessaire. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "CORRUPTED SEARCH": [
@@ -287,6 +383,14 @@
     [
       "NIKO — ANALYSTE RÉSEAU",
       "Si tu trouves le terme commun, nous pourrons suivre le transfert jusqu'au prochain nœud."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Point vérifiable pour cette étape : Les moteurs de recherche et les index Web sont contaminés. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Les communications fiables deviennent plus difficiles. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "THE DATA HUNTERS": [
@@ -309,6 +413,14 @@
     [
       "NIKO — ANALYSTE RÉSEAU",
       "Quand on aura le motif, on pourra anticiper leur prochaine cible."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Point vérifiable pour cette étape : Des échantillons et des journaux réseau sont comparés. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le joueur cherche le point de convergence des transferts. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "THE CLOUD TRAIL": [
@@ -331,6 +443,14 @@
     [
       "SYSTÈME VANTEX",
       "Indice enregistré : le flux énergétique possède un chemin traçable."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Point vérifiable pour cette étape : Les données récupérées montrent des transferts anormaux entre services. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le lien avec la sphère de confinement se renforce. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "ENERGY TRANSFER": [
@@ -353,6 +473,14 @@
     [
       "SYSTÈME VANTEX",
       "Objectif : interrompre une partie de l'alimentation et rejoindre BLACK VAULT."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Point vérifiable pour cette étape : Les signatures des transferts correspondent aux variations énergétiques relevées à BLACK VAULT. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Arrêter les virus devient aussi important que protéger les systèmes touchés. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "CUT THE FEED": [
@@ -375,6 +503,14 @@
     [
       "NIKO — ANALYSTE RÉSEAU",
       "Le flux ralentit, mais il ne s'arrête pas. Quelque chose vient de déplacer le trafic."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Point vérifiable pour cette étape : Les relais identifiés peuvent être isolés sans détruire les données de preuve. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : The Hacker adapte son réseau et la menace persiste. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "THE ROAD TO BLACK VAULT": [
@@ -397,6 +533,14 @@
     [
       "MARA — RESPONSABLE SÉCURITÉ",
       "Si Voss a laissé un protocole d'urgence, on le trouvera là-bas."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Point vérifiable pour cette étape : La sphère continue d'accumuler de l'énergie malgré les contre-mesures. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : L'arc se conclut sur la mission vers BLACK VAULT. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "ARRIVAL AT AREA 51": [
@@ -419,6 +563,14 @@
     [
       "SYSTÈME VANTEX",
       "Nouvel objectif : trouver l'accès sécurisé à l'installation."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Point vérifiable pour cette étape : Les coordonnées récupérées chez VANTEX sont confirmées sur le terrain. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le joueur doit franchir les défenses du site. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "LOCKDOWN PROTOCOL": [
@@ -441,6 +593,14 @@
     [
       "MARA — RESPONSABLE SÉCURITÉ",
       "Si l'alarme passe au niveau supérieur, les accès pourraient se verrouiller définitivement."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Point vérifiable pour cette étape : Les alertes internes détectent des anomalies dans les secteurs de confinement. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le joueur doit rétablir un accès sûr aux secteurs internes. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "THE SILENT FACILITY": [
@@ -463,6 +623,14 @@
     [
       "MARA — RESPONSABLE SÉCURITÉ",
       "Reste près des systèmes que tu peux isoler. Nous ne savons pas si la sécurité nous reconnaît comme alliés."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Point vérifiable pour cette étape : Les communications sont perturbées et plusieurs postes sont hors service. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Les journaux du personnel deviennent une source d'information essentielle. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "THE BULLET": [
@@ -485,6 +653,14 @@
     [
       "ARCHIVE — DR ELIAS VOSS",
       "Si cette archive est consultée, le confinement est probablement déjà compromis. N'essayez pas de forcer une ouverture."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Point vérifiable pour cette étape : Les relevés confirment qu'elle contient toujours The Hacker. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Il faut comprendre comment renforcer le confinement. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "CONTAINMENT FAILURE": [
@@ -507,6 +683,14 @@
     [
       "SYSTÈME VANTEX",
       "La fenêtre de sécurité se réduit. L'installation passe en alerte rouge."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Point vérifiable pour cette étape : L'énergie de The Hacker dépasse les seuils prévus. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le joueur doit trouver une solution liée à PROJECT MERGE. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "VOSS'S LAST RECORDING": [
@@ -529,6 +713,14 @@
     [
       "ARCHIVE — DR ELIAS VOSS",
       "Ne confondez jamais capacité et contrôle. Ce qui vous rend plus puissant peut aussi vous retirer le choix."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Point vérifiable pour cette étape : Le joueur accède à une archive sécurisée dans BLACK VAULT. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le projet devient la seule piste crédible pour la suite. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "THE PRISON'S SECRET": [
@@ -551,6 +743,14 @@
     [
       "NIKO — ANALYSTE RÉSEAU",
       "Quelqu'un a prévu une voie de secours. Il faut retrouver son point de contrôle."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Point vérifiable pour cette étape : Des schémas et relevés relient la sphère à des systèmes de contrôle numériques. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le joueur doit agir avant une rupture totale. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "NO WAY BACK": [
@@ -573,6 +773,14 @@
     [
       "SYSTÈME VANTEX",
       "OBJECTIF : reconstruire le dispositif et établir une synchronisation contrôlée."
+    ],
+    [
+      "MARA — RESPONSABLE SÉCURITÉ",
+      "Point vérifiable pour cette étape : Les dernières mesures de stabilisation échouent. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le joueur se prépare à maîtriser PROJECT MERGE pour affronter la menace. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "REBUILD THE MACHINE": [
@@ -595,6 +803,14 @@
     [
       "ARCHIVE — DR ELIAS VOSS",
       "Ne tentez pas de compenser une pièce instable par davantage de puissance."
+    ],
+    [
+      "DR ELIAS VOSS — ENREGISTREMENT",
+      "Point vérifiable pour cette étape : Les archives de Voss et les installations de BLACK VAULT fournissent les données de conception. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "TOI",
+      "Conséquence attendue dans le dossier : La préparation de la fusion commence. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "THE HUMAN VARIABLE": [
@@ -617,6 +833,14 @@
     [
       "SYSTÈME VANTEX",
       "ÉTAPE VALIDÉE : protocole de sécurité enregistré."
+    ],
+    [
+      "DR ELIAS VOSS — ENREGISTREMENT",
+      "Point vérifiable pour cette étape : Les notes de Voss montrent que l'expérience originale a échoué à contrôler plusieurs variables. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "TOI",
+      "Conséquence attendue dans le dossier : La fusion exige précision et contrôle plutôt que puissance brute. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "DIGITAL CALIBRATION": [
@@ -639,6 +863,14 @@
     [
       "NIKO — ANALYSTE RÉSEAU",
       "La stabilité progresse. Il reste à effectuer une première synchronisation contrôlée."
+    ],
+    [
+      "DR ELIAS VOSS — ENREGISTREMENT",
+      "Point vérifiable pour cette étape : Les tests révèlent des incompatibilités entre les modules. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "TOI",
+      "Conséquence attendue dans le dossier : Le joueur peut passer à l'étape suivante, avec un risque toujours présent. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "FIRST SYNCHRONIZATION": [
@@ -661,6 +893,14 @@
     [
       "SYSTÈME VANTEX",
       "Première synchronisation terminée. Contrôle limité, aucune garantie de stabilité à long terme."
+    ],
+    [
+      "DR ELIAS VOSS — ENREGISTREMENT",
+      "Point vérifiable pour cette étape : Les paramètres restent dans les limites définies pendant le test. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "TOI",
+      "Conséquence attendue dans le dossier : Ces nouvelles capacités doivent être entraînées avant un combat réel. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "THE MERGE": [
@@ -683,6 +923,14 @@
     [
       "SYSTÈME VANTEX",
       "Les flux convergent. La machine dépasse le seuil de contrôle, puis se stabilise. Fusion confirmée, maîtrise incomplète."
+    ],
+    [
+      "DR ELIAS VOSS — ENREGISTREMENT",
+      "Point vérifiable pour cette étape : Le dispositif est stable et les protocoles d'urgence sont activés. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "TOI",
+      "Conséquence attendue dans le dossier : Le joueur devient capable de résister à The Hacker. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "POWER CONTROL": [
@@ -705,6 +953,14 @@
     [
       "NIKO — ANALYSTE RÉSEAU",
       "Le contrôle est suffisant pour une première confrontation. Les fragments restent cependant actifs."
+    ],
+    [
+      "DR ELIAS VOSS — ENREGISTREMENT",
+      "Point vérifiable pour cette étape : Les premières utilisations sont imprécises et coûteuses en énergie. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "TOI",
+      "Conséquence attendue dans le dossier : Une maîtrise suffisante est nécessaire avant de poursuivre. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "VOSS'S WARNING": [
@@ -727,6 +983,14 @@
     [
       "SYSTÈME VANTEX",
       "OBJECTIF : entrer dans le réseau et neutraliser les fragments."
+    ],
+    [
+      "DR ELIAS VOSS — ENREGISTREMENT",
+      "Point vérifiable pour cette étape : Le message est retrouvé dans les données complètes du projet. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "TOI",
+      "Conséquence attendue dans le dossier : Il faut localiser et neutraliser les fragments numériques. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "READY FOR THE NETWORK": [
@@ -749,6 +1013,14 @@
     [
       "THE HACKER",
       "Tu as appris à entrer dans mon monde. Tu n'as pas encore appris à en sortir."
+    ],
+    [
+      "DR ELIAS VOSS — ENREGISTREMENT",
+      "Point vérifiable pour cette étape : Les relevés détectent plusieurs noyaux numériques actifs. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "TOI",
+      "Conséquence attendue dans le dossier : L'arc mène à GHOST IN THE NETWORK. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "THE FIRST FRAGMENT": [
@@ -771,6 +1043,14 @@
     [
       "SYSTÈME VANTEX",
       "Indice : le fragment est un relais, pas le noyau central."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Point vérifiable pour cette étape : Les relevés réseau révèlent une signature liée à The Hacker. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le joueur commence à cartographier les autres noyaux. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "NETWORK GHOSTS": [
@@ -793,6 +1073,14 @@
     [
       "SYSTÈME VANTEX",
       "OBJECTIF : distinguer les fragments actifs des leurres."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Point vérifiable pour cette étape : Les fragments partagent des signatures, mais leurs comportements varient. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le joueur doit les localiser avant leur synchronisation. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "TRACE THE NODES": [
@@ -815,6 +1103,14 @@
     [
       "NIKO — ANALYSTE RÉSEAU",
       "La carte révèle une route stable. Le premier noyau peut maintenant être atteint."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Point vérifiable pour cette étape : Les données de plusieurs attaques sont croisées avec les signatures numériques. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Les nœuds prioritaires deviennent des cibles. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "FIRST NODE DISABLED": [
@@ -837,6 +1133,14 @@
     [
       "MARA — RESPONSABLE SÉCURITÉ",
       "Il sait que tu avances. Ne reste pas au même endroit après chaque désactivation."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Point vérifiable pour cette étape : Le noyau est isolé avant de se synchroniser avec les autres. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Les fragments restants accélèrent leur activité. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "COUNTERATTACK": [
@@ -859,6 +1163,14 @@
     [
       "SYSTÈME VANTEX",
       "COMBAT : utilise esquive, frappe, charge et onde d'énergie. Le repli reste possible, mais il a un coût."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Point vérifiable pour cette étape : Les fragments détectent la neutralisation du premier noyau. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : La stratégie doit changer pour éviter les pièges suivants. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "SYNCHRONIZATION WINDOW": [
@@ -881,6 +1193,14 @@
     [
       "THE HACKER",
       "Tu hésites. C'est dans l'espace entre deux décisions que je grandis."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Point vérifiable pour cette étape : Les signaux convergent vers un même protocole. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le joueur doit atteindre le dernier ensemble de nœuds. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "BREAK THE LINK": [
@@ -903,6 +1223,14 @@
     [
       "THE HACKER",
       "Tu as fermé une porte. Tu viens de m'obliger à ouvrir la suivante."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Point vérifiable pour cette étape : Les noyaux sont accessibles avant la fin du processus. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : The Hacker se concentre sur son dernier lien avec le monde réel. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "THE LAST SIGNAL": [
@@ -925,6 +1253,14 @@
     [
       "THE HACKER",
       "Viens donc. Je vais te montrer ce que tu as contribué à libérer."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Point vérifiable pour cette étape : Les relevés indiquent qu'un dernier noyau sert de point de convergence. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le joueur se prépare à l'affrontement final. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "FINAL APPROACH": [
@@ -947,6 +1283,14 @@
     [
       "THE HACKER",
       "Tu as traversé mon réseau pour arriver jusqu'à moi. Tu aurais pu rester à l'extérieur."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Point vérifiable pour cette étape : Les fragments restants convergent vers le même emplacement. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le joueur doit empêcher la fusion complète de The Hacker avec le réseau. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "THE HACKER UNBOUND": [
@@ -969,6 +1313,14 @@
     [
       "SYSTÈME VANTEX",
       "BOSS FINAL — PHASE 1 : LE CLONE. The Hacker possède 10 000 PV au total sur les trois phases."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Point vérifiable pour cette étape : Le confinement a cédé et les fragments ont préparé sa libération. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le combat met à l'épreuve les capacités acquises grâce à PROJECT MERGE. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "THE NETWORK COLLAPSES": [
@@ -991,6 +1343,14 @@
     [
       "SYSTÈME VANTEX",
       "BOSS FINAL — PHASE 2 : LA HORDE. La santé restante du boss est conservée."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Point vérifiable pour cette étape : The Hacker tente de forcer la connexion au réseau mondial. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le joueur doit atteindre le noyau central. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "CORE OF SYNCHRONIZATION": [
@@ -1013,6 +1373,14 @@
     [
       "SYSTÈME VANTEX",
       "BOSS FINAL — PHASE 3 : THE HACKER. La victoire exige de réduire ses 10 000 PV à zéro."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Point vérifiable pour cette étape : Les fragments et les flux d'énergie convergent vers ce point. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : Le joueur peut tenter de le neutraliser ou de couper la connexion. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "THE FINAL CHOICE": [
@@ -1035,6 +1403,14 @@
     [
       "SYSTÈME VANTEX",
       "DÉCISION FINALE : choisis le protocole dont tu acceptes les conséquences."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Point vérifiable pour cette étape : The Hacker est vulnérable, mais la solution choisie entraîne des conséquences différentes. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : La fin obtenue détermine le destin de The Hacker et de l'humanité. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "RECONTAINMENT": [
@@ -1057,6 +1433,14 @@
     [
       "SYSTÈME VANTEX",
       "FIN : RECONTAINMENT. The Hacker est de nouveau confiné. La menace n'est pas effacée, mais sa propagation est interrompue."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Point vérifiable pour cette étape : Le joueur choisit de préserver The Hacker tout en neutralisant sa menace immédiate. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : La menace est contenue, mais le risque d'un nouvel incident demeure. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "TOTAL ERASURE": [
@@ -1079,6 +1463,14 @@
     [
       "SYSTÈME VANTEX",
       "FIN : TOTAL ERASURE. The Hacker est effacé du réseau. Les pertes de données sont irréversibles."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Point vérifiable pour cette étape : Le joueur choisit une solution irréversible pour supprimer la menace. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : L'humanité est sauvée, mais les conséquences de cette destruction restent à mesurer. On doit confronter le résultat aux indices avant de conclure."
     ]
   ],
   "THEY ARE DOOMED": [
@@ -1101,6 +1493,14 @@
     [
       "SYSTÈME VANTEX",
       "FIN : THEY ARE DOOMED. La connexion n'est pas neutralisée. La menace s'étend au-delà du réseau contrôlé."
+    ],
+    [
+      "SYSTÈME VANTEX",
+      "Point vérifiable pour cette étape : Le joueur échoue à interrompre la synchronisation finale. Je préfère qu'on garde ce fait séparé de nos hypothèses."
+    ],
+    [
+      "NIKO — ANALYSTE RÉSEAU",
+      "Conséquence attendue dans le dossier : L'humanité est condamnée par la victoire de The Hacker. On doit confronter le résultat aux indices avant de conclure."
     ]
   ]
 }
